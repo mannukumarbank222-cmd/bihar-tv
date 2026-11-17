@@ -1,0 +1,18 @@
+plugins { id 'com.android.application' }
+android {
+  namespace 'com.playrang.bihartv'
+  compileSdk 34
+  defaultConfig { applicationId 'com.playrang.bihartv'; minSdk 24; targetSdk 34; versionCode 1; versionName '1.0' }
+  signingConfigs {
+    release {
+      storeFile file(System.getenv('KS_PATH') ?: 'none.p12')
+      storePassword System.getenv('KS_PASS') ?: ''
+      keyAlias 'bihartv'
+      keyPassword System.getenv('KS_PASS') ?: ''
+      storeType 'pkcs12'
+    }
+  }
+  buildTypes { release { minifyEnabled false; signingConfig signingConfigs.release } }
+  lint { abortOnError false; checkReleaseBuilds false }
+  compileOptions { sourceCompatibility JavaVersion.VERSION_1_8; targetCompatibility JavaVersion.VERSION_1_8 }
+}

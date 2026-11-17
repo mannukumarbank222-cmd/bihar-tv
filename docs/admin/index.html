@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bihar TV – Admin Panel</title><link rel="icon" href="../icon.png">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:#f6f1ef;color:#222}
+header{background:linear-gradient(90deg,#b71c1c,#e65100);color:#fff;padding:14px;display:flex;gap:10px;align-items:center}
+header img{width:40px;border-radius:10px}header h1{margin:0;font-size:20px;flex:1}
+main{max-width:860px;margin:auto;padding:14px}
+.box{background:#fff;border-radius:14px;padding:14px;margin-bottom:14px;box-shadow:0 1px 4px #0001}
+label{display:block;font-size:13px;font-weight:600;margin:10px 0 4px}
+input,select,textarea{width:100%;padding:10px;border:1px solid #ccc;border-radius:10px;font-size:15px}
+button{padding:10px 16px;border:0;border-radius:10px;font-weight:700;font-size:15px;cursor:pointer;background:#b71c1c;color:#fff;margin-top:10px}
+button.alt{background:#555}button.ok{background:#2e7d32}
+.row{display:flex;gap:10px;align-items:center;border-bottom:1px solid #eee;padding:8px 0}
+.row img{width:80px;height:45px;object-fit:cover;border-radius:6px;background:#ddd}
+.row .t{flex:1;font-size:14px}.row small{color:#777;display:block}
+.row button{margin:0;padding:6px 10px;font-size:13px}
+#msg{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:#222;color:#fff;padding:10px 18px;border-radius:20px;display:none}
+.help{font-size:13px;color:#555;line-height:1.5}
+</style></head><body>
+<header><img src="../icon.png" alt=""><h1>Bihar TV – एडमिन पैनल</h1></header>
+<main>
+<div class="box" id="login">
+ <b>🔐 लॉगिन</b>
+ <p class="help">GitHub टोकन डालें (repo अनुमति वाला)। यह सिर्फ़ इसी फ़ोन/ब्राउज़र में सेव रहेगा।</p>
+ <input id="tok" type="password" placeholder="ghp_...">
+ <button onclick="login()">लॉगिन करें</button>
+</div>
+<div id="panel" style="display:none">
+ <div class="box"><b>➕ नया वीडियो जोड़ें</b>
+  <input type="hidden" id="eid">
+  <label>नाम (टाइटल)</label><input id="ti" placeholder="जैसे: आज की बिहार की बड़ी खबरें">
+  <label>भाग (कैटेगरी)</label><select id="ca"></select>
+  <label>लिंक</label><input id="ur" placeholder="YouTube लिंक, .mp4 या .m3u8 लिंक, या YouTube चैनल ID (UC...)">
+  <label>प्रकार</label><select id="ty"><option value="auto">अपने आप पहचानें</option><option value="youtube">YouTube वीडियो</option><option value="ytlive">YouTube चैनल लाइव (UC… ID)</option><option value="mp4">MP4 वीडियो</option><option value="hls">लाइव स्ट्रीम (.m3u8)</option></select>
+  <label>फ़ोटो लिंक (वैकल्पिक – YouTube की फ़ोटो अपने आप आती है)</label><input id="th">
+  <label><input type="checkbox" id="fe" style="width:auto"> ⭐ होम पर खास में दिखाएँ</label>
+  <button onclick="saveItem()">सेव करें</button> <button class="alt" onclick="clearF()">साफ़ करें</button>
+ </div>
+ <div class="box"><b>📋 सभी वीडियो</b> <select id="fc" onchange="list()" style="width:auto;margin-left:8px"></select><div id="items"></div></div>
+ <div class="box"><b>📢 ऐप की चलती पट्टी (नोटिस)</b><textarea id="no" rows="2"></textarea>
+  <b style="display:block;margin-top:14px">🗂️ नया भाग जोड़ें</b><input id="nc" placeholder="नाम, जैसे: भोजपुरी"><input id="ni" placeholder="इमोजी, जैसे: 🎤" style="margin-top:6px">
+  <button class="alt" onclick="addCat()">भाग जोड़ें</button>
+  <button class="ok" onclick="publish()" style="display:block;width:100%">✅ ऐप में पब्लिश करें</button>
+  <p class="help">पब्लिश के 1–2 मिनट बाद बदलाव ऐप में दिख जाएगा।</p>
+  <button class="alt" onclick="localStorage.removeItem('btvtok');location.reload()">लॉगआउट</button></div>
+</div></main><div id="msg"></div>
+<script>
+const OWNER='mannukumarbank222-cmd',REPO='bihar-tv',PATH='docs/content.json',API=`https://api.github.com/repos/${OWNER}/${REPO}/contents/${PATH}`;
+let T=localStorage.btvtok||'',D=null,SHA=null;const $=s=>document.querySelector(s);
+function toast(t){const m=$('#msg');m.textContent=t;m.style.display='block';setTimeout(()=>m.style.display='none',2500)}
+const dec=b=>decodeURIComponent(escape(atob(b.replace(/\n/g,'')))),enc=s=>btoa(unescape(encodeURIComponent(s)));
+async function login(){T=$('#tok').value.trim()||T;try{const r=await fetch(API+'?ref=main&t='+Date.now(),{headers:{Authorization:'Bearer '+T}});if(!r.ok)throw r.status;const j=await r.json();SHA=j.sha;D=JSON.parse(dec(j.content));localStorage.btvtok=T;$('#login').style.display='none';$('#panel').style.display='block';ui()}catch(e){toast('लॉगिन नहीं हुआ ('+e+')')}}
+function ui(){const o=D.categories.map(c=>`<option value="${c.id}">${c.icon} ${c.name}</option>`).join('');$('#ca').innerHTML=o;$('#fc').innerHTML='<option value="all">सब</option>'+o;$('#no').value=D.notice||'';list()}
+function ytId(u){const m=(u||'').match(/(?:v=|youtu\.be\/|embed\/|shorts\/|live\/)([\w-]{11})/);return m?m[1]:null}
+function detect(u){if(/^UC[\w-]{22}$/.test(u))return'ytlive';if(ytId(u))return'youtube';if(/\.m3u8/.test(u))return'hls';return'mp4'}
+function th(i){return i.thumb||(i.type==='youtube'&&ytId(i.url)?'https://i.ytimg.com/vi/'+ytId(i.url)+'/default.jpg':'../icon.png')}
+function list(){const f=$('#fc').value;$('#items').innerHTML=D.items.map((i,n)=>({i,n})).filter(x=>f==='all'||x.i.category===f).map(({i,n})=>`<div class="row"><img src="${th(i)}"><div class="t">${i.featured?'⭐ ':''}${i.title}<small>${(D.categories.find(c=>c.id===i.category)||{}).name||i.category} · ${i.type}</small></div><button class="alt" onclick="mv(${n},-1)">↑</button><button class="alt" onclick="edit(${n})">✏️</button><button onclick="del(${n})">🗑️</button></div>`).join('')||'<p class="help">कोई वीडियो नहीं</p>'}
+function clearF(){['eid','ti','ur','th'].forEach(k=>$('#'+k).value='');$('#ty').value='auto';$('#fe').checked=false}
+function saveItem(){const t=$('#ti').value.trim(),u=$('#ur').value.trim();if(!t||!u)return toast('नाम और लिंक ज़रूरी है');
+ const it={id:$('#eid').value||('v'+Date.now()),title:t,category:$('#ca').value,type:$('#ty').value==='auto'?detect(u):$('#ty').value,url:u,thumb:$('#th').value.trim(),featured:$('#fe').checked};
+ const k=D.items.findIndex(x=>x.id===it.id);if(k>=0)D.items[k]=it;else D.items.unshift(it);clearF();list();toast('जुड़ गया – अब "पब्लिश करें" दबाएँ')}
+function edit(n){const i=D.items[n];$('#eid').value=i.id;$('#ti').value=i.title;$('#ca').value=i.category;$('#ur').value=i.url;$('#ty').value=i.type;$('#th').value=i.thumb||'';$('#fe').checked=!!i.featured;scrollTo(0,0)}
+function del(n){if(confirm('हटाएँ: '+D.items[n].title+'?')){D.items.splice(n,1);list()}}
+function mv(n,d){const m=n+d;if(m<0)return;[D.items[n],D.items[m]]=[D.items[m],D.items[n]];list()}
+function addCat(){const n=$('#nc').value.trim();if(!n)return;D.categories.push({id:'c'+Date.now(),name:n,icon:$('#ni').value.trim()||'📺'});$('#nc').value='';$('#ni').value='';ui();toast('भाग जुड़ गया')}
+async function publish(){D.notice=$('#no').value;try{const r=await fetch(API,{method:'PUT',headers:{Authorization:'Bearer '+T,'Content-Type':'application/json'},body:JSON.stringify({message:'Admin: content update',content:enc(JSON.stringify(D,null,2)),sha:SHA,branch:'main'})});const j=await r.json();if(!r.ok)throw j.message;SHA=j.content.sha;toast('✅ पब्लिश हो गया!')}catch(e){toast('पब्लिश नहीं हुआ: '+e)}}
+if(T)login();
+</script></body></html>

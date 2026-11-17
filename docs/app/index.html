@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Bihar TV</title><link rel="icon" href="icon.png">
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.17/dist/hls.min.js"></script>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,'Noto Sans Devanagari',sans-serif;background:#120a0a;color:#fff}
+header{position:sticky;top:0;z-index:5;background:linear-gradient(90deg,#b71c1c,#e65100);padding:10px 14px;display:flex;align-items:center;gap:10px}
+header img{width:38px;height:38px;border-radius:10px}header h1{font-size:21px;margin:0;flex:1}
+#q{width:100%;padding:10px 14px;border-radius:22px;border:0;font-size:15px;margin:8px 0 0}
+.bar{background:#b71c1c;padding:0 14px 10px}
+.notice{background:#ffb300;color:#000;font-weight:600;padding:7px 0;overflow:hidden;white-space:nowrap}
+.notice span{display:inline-block;padding-left:100%;animation:m 18s linear infinite}@keyframes m{to{transform:translateX(-100%)}}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:12px 14px;scrollbar-width:none}.tabs::-webkit-scrollbar{display:none}
+.tab{flex:none;padding:8px 14px;border-radius:20px;background:#2a1717;color:#fff;border:1px solid #4a2a2a;font-size:15px}
+.tab.on{background:#ffb300;color:#000;border-color:#ffb300;font-weight:700}
+h2{font-size:18px;margin:14px 14px 8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;padding:0 14px 30px}
+.card{background:#231414;border-radius:14px;overflow:hidden;cursor:pointer}
+.th{aspect-ratio:16/9;background:#3a1e1e center/cover no-repeat;display:flex;align-items:center;justify-content:center;font-size:40px;position:relative}
+.live{position:absolute;top:6px;left:6px;background:#e53935;font-size:11px;font-weight:700;padding:2px 7px;border-radius:5px}
+.card p{margin:8px 10px 10px;font-size:14px;line-height:1.3}
+.empty{padding:30px;text-align:center;color:#c9a}
+#pl{position:fixed;inset:0;background:#000;z-index:20;display:none;flex-direction:column}
+#pl .top{display:flex;align-items:center;gap:10px;padding:10px;background:#1a0d0d}
+#pl .top button{background:#ffb300;border:0;border-radius:18px;padding:8px 14px;font-weight:700}
+#pl .top b{flex:1;font-size:15px}
+#box{flex:none;width:100%;aspect-ratio:16/9;background:#000}#box iframe,#box video{width:100%;height:100%;border:0}
+#more{flex:1;overflow:auto}
+#yt{display:none;margin:12px;color:#ffb300}
+</style></head><body>
+<header><img src="icon.png" alt=""><h1>Bihar TV</h1></header>
+<div class="bar"><input id="q" placeholder="🔍 खोजें – खबर, गाना, फिल्म…"></div>
+<div class="notice"><span id="nt">लोड हो रहा है…</span></div>
+<div class="tabs" id="tabs"></div>
+<div id="list"></div>
+<div id="pl"><div class="top"><button onclick="closeP()">← वापस</button><b id="pt"></b></div>
+<div id="box"></div><a id="yt" target="_blank">YouTube पर खोलें ↗</a><div id="more"></div></div>
+<script>
+const SRC='../content.json';let D={categories:[],items:[]},cat='all',hls=null;
+const $=s=>document.querySelector(s);
+function ytId(u){const m=(u||'').match(/(?:v=|youtu\.be\/|embed\/|shorts\/|live\/)([\w-]{11})/);return m?m[1]:(/^[\w-]{11}$/.test(u)?u:null)}
+function thumb(i){if(i.thumb)return i.thumb;if(i.type==='youtube'){const id=ytId(i.url);if(id)return 'https://i.ytimg.com/vi/'+id+'/hqdefault.jpg'}return ''}
+function icon(c){const x=D.categories.find(k=>k.id===c);return x?x.icon:'📺'}
+async function load(){try{const r=await fetch(SRC+'?t='+Date.now());D=await r.json();localStorage.btv=JSON.stringify(D)}catch(e){if(localStorage.btv)D=JSON.parse(localStorage.btv)}
+ $('#nt').textContent=D.notice||'Bihar TV';tabs();render()}
+function tabs(){$('#tabs').innerHTML=[{id:'all',name:'सब',icon:'🏠'}].concat(D.categories).map(c=>`<button class="tab ${c.id===cat?'on':''}" onclick="cat='${c.id}';tabs();render()">${c.icon} ${c.name}</button>`).join('')}
+function card(i){const t=thumb(i);return `<div class="card" onclick="play('${i.id}')"><div class="th" style="${t?`background-image:url('${t}')`:''}">${t?'':icon(i.category)}${i.type==='ytlive'||i.category==='live'?'<span class="live">● LIVE</span>':''}</div><p>${esc(i.title)}</p></div>`}
+function esc(s){return (s||'').replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]))}
+function render(){const q=$('#q').value.trim().toLowerCase();let it=D.items.filter(i=>(cat==='all'||i.category===cat)&&(!q||i.title.toLowerCase().includes(q)));
+ let h='';if(cat==='all'&&!q){const f=it.filter(i=>i.featured);if(f.length)h+=`<h2>⭐ खास</h2><div class="grid">${f.map(card).join('')}</div>`;
+  D.categories.forEach(c=>{const l=it.filter(i=>i.category===c.id);if(l.length)h+=`<h2>${c.icon} ${c.name}</h2><div class="grid">${l.map(card).join('')}</div>`})}
+ else h=it.length?`<div class="grid" style="padding-top:6px">${it.map(card).join('')}</div>`:'<div class="empty">इस भाग में जल्द ही नए वीडियो आएँगे 🙏</div>';
+ $('#list').innerHTML=h||'<div class="empty">जल्द ही नए वीडियो आएँगे 🙏</div>'}
+function play(id){const i=D.items.find(x=>x.id===id);if(!i)return;const b=$('#box');b.innerHTML='';if(hls){hls.destroy();hls=null}
+ $('#pt').textContent=i.title;const yt=$('#yt');yt.style.display='none';let u=i.url;
+ if(i.type==='ytlive'){b.innerHTML=`<iframe allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen src="https://www.youtube.com/embed/live_stream?channel=${u}&autoplay=1&playsinline=1"></iframe>`;yt.href='https://www.youtube.com/channel/'+u+'/live';yt.style.display='block'}
+ else if(i.type==='youtube'){const v=ytId(u);b.innerHTML=`<iframe allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen src="https://www.youtube.com/embed/${v}?autoplay=1&playsinline=1&rel=0"></iframe>`;yt.href='https://www.youtube.com/watch?v='+v;yt.style.display='block'}
+ else{const v=document.createElement('video');v.controls=true;v.autoplay=true;v.playsInline=true;b.appendChild(v);
+  if((i.type==='hls'||/\.m3u8/.test(u))&&!v.canPlayType('application/vnd.apple.mpegurl')&&window.Hls){hls=new Hls();hls.loadSource(u);hls.attachMedia(v)}else v.src=u}
+ const rel=D.items.filter(x=>x.category===i.category&&x.id!==i.id);$('#more').innerHTML=rel.length?`<h2>और देखें</h2><div class="grid">${rel.map(card).join('')}</div>`:'';
+ $('#pl').style.display='flex';history.pushState({p:1},'')}
+function closeP(){if($('#pl').style.display!=='flex')return false;$('#pl').style.display='none';$('#box').innerHTML='';if(hls){hls.destroy();hls=null}return true}
+window.btvBack=()=>closeP();window.onpopstate=()=>closeP();
+$('#q').oninput=render;load();setInterval(load,300000);
+</script></body></html>

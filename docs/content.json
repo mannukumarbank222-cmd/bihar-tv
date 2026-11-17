@@ -1,0 +1,20 @@
+{
+  "app": "Bihar TV",
+  "notice": "📺 Bihar TV में आपका स्वागत है! समाचार, कार्टून, फिल्म, गाना – सब एक जगह।",
+  "categories": [
+    {"id": "live", "name": "लाइव TV", "icon": "🔴"},
+    {"id": "news", "name": "समाचार", "icon": "📰"},
+    {"id": "cartoon", "name": "कार्टून", "icon": "🧸"},
+    {"id": "film", "name": "फिल्म", "icon": "🎬"},
+    {"id": "song", "name": "गाना", "icon": "🎵"},
+    {"id": "bhakti", "name": "भक्ति", "icon": "🙏"},
+    {"id": "comedy", "name": "कॉमेडी", "icon": "😂"}
+  ],
+  "items": [
+    {"id": "dd-news-bihar", "title": "DD News Bihar (पटना)", "category": "live", "type": "ytlive", "url": "UC3mriGmcV5p7cgkuA88laDQ", "thumb": "", "featured": true},
+    {"id": "dd-news", "title": "DD News लाइव", "category": "live", "type": "ytlive", "url": "UCKwucPzHZ7zCUIf7If-Wo1g", "thumb": "", "featured": true},
+    {"id": "aaj-tak", "title": "आज तक लाइव", "category": "news", "type": "ytlive", "url": "UCt4t-jeY85JegMlZ-E5UWtA", "thumb": "", "featured": false},
+    {"id": "dd-india", "title": "DD India 24x7", "category": "news", "type": "ytlive", "url": "UCGDQNvybfDDeGTf4GtigXaw", "thumb": "", "featured": false},
+    {"id": "bunny", "title": "Big Buck Bunny (कार्टून फिल्म)", "category": "cartoon", "type": "hls", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8", "thumb": "", "featured": false}
+  ]
+}
