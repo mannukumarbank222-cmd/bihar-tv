@@ -1,0 +1,36 @@
+name: Build Bihar TV APK
+on:
+  push:
+    branches: [ main ]
+    paths-ignore: [ 'docs/**', 'README.md' ]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unpack bundle
+        run: |
+          if [ -f bundle.tgz ]; then
+            tar xzf bundle.tgz && git rm -q bundle.tgz
+            git config user.name "Bihar TV Bot"; git config user.email "bot@users.noreply.github.com"
+            git add -A && git commit -m "Add Bihar TV app, admin panel and website" && git push
+          fi
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: '17' }
+      - uses: gradle/actions/setup-gradle@v3
+        with: { gradle-version: '8.7' }
+      - run: echo "${{ secrets.KEYSTORE_B64 }}" | base64 -d > $RUNNER_TEMP/bihartv.p12
+      - run: gradle assembleRelease
+        env:
+          KS_PATH: ${{ runner.temp }}/bihartv.p12
+          KS_PASS: ${{ secrets.KEYSTORE_PASS }}
+      - run: cp app/build/outputs/apk/release/app-release.apk BiharTV.apk
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.0-build-${{ github.run_number }}
+          name: Bihar TV build ${{ github.run_number }}
+          files: BiharTV.apk
+          make_latest: true
