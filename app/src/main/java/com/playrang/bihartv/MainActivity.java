@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
     w.setWebViewClient(new WebViewClient(){
       public boolean shouldOverrideUrlLoading(WebView v, WebResourceRequest r){
         Uri u=r.getUrl(); String h=u.getHost()==null?"":u.getHost();
-        if(h.endsWith("github.io")) return false;
+        if(h.endsWith("github.io")) return false; String sc=u.getScheme()==null?"":u.getScheme(); if(!sc.startsWith("http")||h.contains("youtube")||h.contains("youtu.be")||h.contains("google")) return true;
         try{ startActivity(new Intent(Intent.ACTION_VIEW,u)); }catch(Exception e){} return true; }
       public void onReceivedError(WebView v, WebResourceRequest r, WebResourceError e){
         if(r.isForMainFrame()) v.loadUrl("file:///android_asset/offline.html"); }
