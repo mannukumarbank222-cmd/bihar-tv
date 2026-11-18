@@ -49,7 +49,7 @@ function card(i){const t=thumb(i);return `<div class="card" onclick="play('${i.i
 function esc(s){return (s||'').replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]))}
 function render(){const q=$('#q').value.trim().toLowerCase();let it=D.items.filter(i=>(cat==='all'||i.category===cat)&&(!q||i.title.toLowerCase().includes(q)));
  let h='';if(cat==='all'&&!q){const f=it.filter(i=>i.featured);if(f.length)h+=`<h2>⭐ खास</h2><div class="grid">${f.map(card).join('')}</div>`;
-  D.categories.forEach(c=>{const l=it.filter(i=>i.category===c.id);if(l.length)h+=`<h2>${c.icon} ${c.name}</h2><div class="grid">${l.map(card).join('')}</div>`})}
+  D.categories.forEach(c=>{const l=it.filter(i=>i.category===c.id);if(l.length)h+=`<h2>${c.icon} ${c.name}${l.length>8?` <button class="tab" style="float:right" onclick="cat='${c.id}';tabs();render();scrollTo(0,0)">सब देखें (${l.length}) →</button>`:''}</h2><div class="grid">${l.slice(0,8).map(card).join('')}</div>`})}
  else h=it.length?`<div class="grid" style="padding-top:6px">${it.map(card).join('')}</div>`:'<div class="empty">इस भाग में जल्द ही नए वीडियो आएँगे 🙏</div>';
  $('#list').innerHTML=h||'<div class="empty">जल्द ही नए वीडियो आएँगे 🙏</div>'}
 function play(id){const i=D.items.find(x=>x.id===id);if(!i)return;const b=$('#box');b.innerHTML='';if(hls){hls.destroy();hls=null}
@@ -58,7 +58,7 @@ function play(id){const i=D.items.find(x=>x.id===id);if(!i)return;const b=$('#bo
  else if(i.type==='youtube'){const v=ytId(u);b.innerHTML=`<iframe allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen src="https://www.youtube.com/embed/${v}?autoplay=1&playsinline=1&rel=0"></iframe>`;yt.href='https://www.youtube.com/watch?v='+v;yt.style.display='block'}
  else{const v=document.createElement('video');v.controls=true;v.autoplay=true;v.playsInline=true;b.appendChild(v);
   if((i.type==='hls'||/\.m3u8/.test(u))&&!v.canPlayType('application/vnd.apple.mpegurl')&&window.Hls){hls=new Hls();hls.loadSource(u);hls.attachMedia(v)}else v.src=u}
- const rel=D.items.filter(x=>x.category===i.category&&x.id!==i.id);$('#more').innerHTML=rel.length?`<h2>और देखें</h2><div class="grid">${rel.map(card).join('')}</div>`:'';
+ const rel=D.items.filter(x=>x.category===i.category&&x.id!==i.id);$('#more').innerHTML=rel.length?`<h2>और देखें</h2><div class="grid">${rel.slice(0,30).map(card).join('')}</div>`:'';
  $('#pl').style.display='flex';history.pushState({p:1},'')}
 function closeP(){if($('#pl').style.display!=='flex')return false;$('#pl').style.display='none';$('#box').innerHTML='';if(hls){hls.destroy();hls=null}return true}
 window.btvBack=()=>closeP();window.onpopstate=()=>closeP();
