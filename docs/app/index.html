@@ -47,7 +47,7 @@ async function load(){try{const r=await fetch(SRC+'?t='+Date.now());D=await r.js
 function tabs(){$('#tabs').innerHTML=[{id:'all',name:'सब',icon:'🏠'}].concat(D.categories).map(c=>`<button class="tab ${c.id===cat?'on':''}" onclick="cat='${c.id}';tabs();render()">${c.icon} ${c.name}</button>`).join('')}
 function card(i){const t=thumb(i);return `<div class="card" onclick="play('${i.id}')"><div class="th" style="${t?`background-image:url('${t}')`:''}">${t?'':icon(i.category)}${i.type==='ytlive'||i.category==='live'?'<span class="live">● LIVE</span>':''}</div><p>${esc(i.title)}</p></div>`}
 function esc(s){return (s||'').replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]))}
-function render(){const q=$('#q').value.trim().toLowerCase();let it=D.items.filter(i=>(cat==='all'||i.category===cat)&&(!q||i.title.toLowerCase().includes(q)));
+function render(){const q=$('#q').value.trim().toLowerCase();let it=D.items.filter(i=>!BAD[i.id]).filter(i=>(cat==='all'||i.category===cat)&&(!q||i.title.toLowerCase().includes(q)));
  let h='';if(cat==='all'&&!q){const f=it.filter(i=>i.featured);if(f.length)h+=`<h2>⭐ खास</h2><div class="grid">${f.map(card).join('')}</div>`;
   D.categories.forEach(c=>{const l=it.filter(i=>i.category===c.id);if(l.length)h+=`<h2>${c.icon} ${c.name}${l.length>8?` <button class="tab" style="float:right" onclick="cat='${c.id}';tabs();render();scrollTo(0,0)">सब देखें (${l.length}) →</button>`:''}</h2><div class="grid">${l.slice(0,8).map(card).join('')}</div>`})}
  else h=it.length?`<div class="grid" style="padding-top:6px">${it.map(card).join('')}</div>`:'<div class="empty">इस भाग में जल्द ही नए वीडियो आएँगे 🙏</div>';
@@ -55,12 +55,22 @@ function render(){const q=$('#q').value.trim().toLowerCase();let it=D.items.filt
 function play(id){const i=D.items.find(x=>x.id===id);if(!i)return;const b=$('#box');b.innerHTML='';if(hls){hls.destroy();hls=null}
  $('#pt').textContent=i.title;const yt=$('#yt');yt.style.display='none';let u=i.url;
  if(i.type==='ytlive'){b.innerHTML=`<iframe allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen src="https://www.youtube.com/embed/live_stream?channel=${u}&autoplay=1&playsinline=1"></iframe>`;yt.href='https://www.youtube.com/channel/'+u+'/live';yt.style.display='block'}
- else if(i.type==='youtube'){const v=ytId(u);b.innerHTML=`<iframe allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen src="https://www.youtube.com/embed/${v}?autoplay=1&playsinline=1&rel=0"></iframe>`;yt.href='https://www.youtube.com/watch?v='+v;yt.style.display='block'}
+ else if(i.type==='youtube'){ytPlay(ytId(u),i)}
  else{const v=document.createElement('video');v.controls=true;v.autoplay=true;v.playsInline=true;b.appendChild(v);
   if((i.type==='hls'||/\.m3u8/.test(u))&&!v.canPlayType('application/vnd.apple.mpegurl')&&window.Hls){hls=new Hls();hls.loadSource(u);hls.attachMedia(v)}else v.src=u}
- const rel=D.items.filter(x=>x.category===i.category&&x.id!==i.id);$('#more').innerHTML=rel.length?`<h2>और देखें</h2><div class="grid">${rel.slice(0,30).map(card).join('')}</div>`:'';
+ const rel=D.items.filter(x=>x.category===i.category&&x.id!==i.id&&!BAD[x.id]);$('#more').innerHTML=rel.length?`<h2>और देखें</h2><div class="grid">${rel.slice(0,30).map(card).join('')}</div>`:'';
  $('#pl').style.display='flex';history.pushState({p:1},'')}
-function closeP(){if($('#pl').style.display!=='flex')return false;$('#pl').style.display='none';$('#box').innerHTML='';if(hls){hls.destroy();hls=null}return true}
+function closeP(){if($('#pl').style.display!=='flex')return false;$('#pl').style.display='none';$('#box').innerHTML='';ytp=null;if(hls){hls.destroy();hls=null}return true}
 window.btvBack=()=>closeP();window.onpopstate=()=>closeP();
+let BAD={};try{BAD=JSON.parse(localStorage.btvBad||'{}')}catch(e){}
+let ytp=null;
+function ytPlay(v,i){const b=$('#box');b.innerHTML='<div id="ytp" style="width:100%;height:100%"></div>';
+ const mk=()=>{ytp=new YT.Player('ytp',{videoId:v,width:'100%',height:'100%',playerVars:{autoplay:1,playsinline:1,rel:0,modestbranding:1,origin:location.origin},events:{onReady:e=>{try{e.target.playVideo()}catch(x){}},onError:e=>bad(i,e.data)}})};
+ if(window.YT&&YT.Player)mk();else{window.onYouTubeIframeAPIReady=mk;if(!document.getElementById('ytapi')){const t=document.createElement('script');t.id='ytapi';t.src='https://www.youtube.com/iframe_api';document.head.appendChild(t)}}}
+function toast(m){let t=$('#toast');if(!t){t=document.createElement('div');t.id='toast';t.style.cssText='position:fixed;left:12px;right:12px;bottom:20px;background:#222;color:#fff;padding:12px;border-radius:10px;z-index:99;text-align:center';document.body.appendChild(t)}t.textContent=m;t.style.display='block';clearTimeout(t._h);t._h=setTimeout(()=>t.style.display='none',3500)}
+function bad(i,code){if(i.category==='live'||i.category==='news'){toast('लाइव अभी उपलब्ध नहीं है, थोड़ी देर बाद देखें 🙏');return}
+ BAD[i.id]=1;localStorage.btvBad=JSON.stringify(BAD);
+ const nx=D.items.find(x=>x.category===i.category&&!BAD[x.id]);render();
+ if(nx){toast('यह वीडियो नहीं चला, अगला वीडियो चला रहे हैं ▶️');history.back();setTimeout(()=>play(nx.id),300)}else{toast('यह वीडियो नहीं चला 🙏');closeP()}}
 $('#q').oninput=render;load();setInterval(load,300000);
 </script></body></html>
