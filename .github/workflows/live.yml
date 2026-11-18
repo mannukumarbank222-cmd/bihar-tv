@@ -1,0 +1,17 @@
+name: Update live news
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/workflows/live.py
+      - run: |
+          git config user.name "Bihar TV Bot"; git config user.email "bot@users.noreply.github.com"
+          git add docs/content.json
+          git diff --cached --quiet || (git commit -m "Update live news" && git push)
