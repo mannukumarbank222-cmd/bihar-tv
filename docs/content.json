@@ -1,20 +1,1156 @@
 {
-  "app": "Bihar TV",
-  "notice": "📺 Bihar TV में आपका स्वागत है! समाचार, कार्टून, फिल्म, गाना – सब एक जगह।",
-  "categories": [
-    {"id": "live", "name": "लाइव TV", "icon": "🔴"},
-    {"id": "news", "name": "समाचार", "icon": "📰"},
-    {"id": "cartoon", "name": "कार्टून", "icon": "🧸"},
-    {"id": "film", "name": "फिल्म", "icon": "🎬"},
-    {"id": "song", "name": "गाना", "icon": "🎵"},
-    {"id": "bhakti", "name": "भक्ति", "icon": "🙏"},
-    {"id": "comedy", "name": "कॉमेडी", "icon": "😂"}
-  ],
-  "items": [
-    {"id": "dd-news-bihar", "title": "DD News Bihar (पटना)", "category": "live", "type": "ytlive", "url": "UC3mriGmcV5p7cgkuA88laDQ", "thumb": "", "featured": true},
-    {"id": "dd-news", "title": "DD News लाइव", "category": "live", "type": "ytlive", "url": "UCKwucPzHZ7zCUIf7If-Wo1g", "thumb": "", "featured": true},
-    {"id": "aaj-tak", "title": "आज तक लाइव", "category": "news", "type": "ytlive", "url": "UCt4t-jeY85JegMlZ-E5UWtA", "thumb": "", "featured": false},
-    {"id": "dd-india", "title": "DD India 24x7", "category": "news", "type": "ytlive", "url": "UCGDQNvybfDDeGTf4GtigXaw", "thumb": "", "featured": false},
-    {"id": "bunny", "title": "Big Buck Bunny (कार्टून फिल्म)", "category": "cartoon", "type": "hls", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8", "thumb": "", "featured": false}
-  ]
+ "app": "Bihar TV",
+ "notice": "📺 Bihar TV – लाइव समाचार, मोटू पतलू, निरहुआ की फिल्में, साउथ फिल्में, भूतिया फिल्में और गाने, सब एक जगह!",
+ "categories": [
+  {
+   "id": "live",
+   "name": "लाइव TV",
+   "icon": "🔴"
+  },
+  {
+   "id": "news",
+   "name": "समाचार",
+   "icon": "📰"
+  },
+  {
+   "id": "cartoon",
+   "name": "कार्टून",
+   "icon": "🧸"
+  },
+  {
+   "id": "bhojpuri",
+   "name": "भोजपुरी फिल्म",
+   "icon": "🎥"
+  },
+  {
+   "id": "film",
+   "name": "हिंदी फिल्म",
+   "icon": "🎬"
+  },
+  {
+   "id": "south",
+   "name": "साउथ फिल्म",
+   "icon": "🦸"
+  },
+  {
+   "id": "horror",
+   "name": "भूतिया फिल्म",
+   "icon": "👻"
+  },
+  {
+   "id": "song",
+   "name": "गाना",
+   "icon": "🎵"
+  }
+ ],
+ "items": [
+  {
+   "id": "dd-news-bihar",
+   "title": "DD News Bihar (पटना) लाइव",
+   "category": "live",
+   "type": "youtube",
+   "url": "https://youtu.be/rjd0hCIPkyA",
+   "thumb": "",
+   "featured": true,
+   "live_query": "DD News Bihar live",
+   "live_channel": "DD News Bihar"
+  },
+  {
+   "id": "dd-news",
+   "title": "DD News लाइव 24x7",
+   "category": "live",
+   "type": "youtube",
+   "url": "https://youtu.be/qD6GkaU2lD0",
+   "thumb": "",
+   "featured": true,
+   "live_query": "DD News live",
+   "live_channel": "DD News"
+  },
+  {
+   "id": "aaj-tak",
+   "title": "आज तक लाइव 24x7",
+   "category": "live",
+   "type": "youtube",
+   "url": "https://youtu.be/Nq2wYlWFucg",
+   "thumb": "",
+   "featured": true,
+   "live_query": "aaj tak live tv",
+   "live_channel": "Aaj Tak"
+  },
+  {
+   "id": "abp-news",
+   "title": "ABP News लाइव",
+   "category": "news",
+   "type": "youtube",
+   "url": "https://youtu.be/nyd-xznCpJc",
+   "thumb": "",
+   "featured": false,
+   "live_query": "abp news live",
+   "live_channel": "ABP NEWS"
+  },
+  {
+   "id": "dd-india",
+   "title": "DD India 24x7",
+   "category": "news",
+   "type": "youtube",
+   "url": "https://youtu.be/9X37FfIrKio",
+   "thumb": "",
+   "featured": false,
+   "live_query": "dd india live",
+   "live_channel": "DD India"
+  },
+  {
+   "id": "WrxYRXH2ceg",
+   "title": "Motu Patlu Ka Twins Carnival Mein Dhamaka | Motu Patlu Compilation | Cartoons For Kids",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/WrxYRXH2ceg",
+   "thumb": "",
+   "featured": true
+  },
+  {
+   "id": "CVWV_VJdkjw",
+   "title": "Chhota Bheem - Paani se Sona | Adventure Cartoons for Kids | Fun Kids Videos",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/CVWV_VJdkjw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "0wztU1J5gGs",
+   "title": "Shiva | शिवा | Full Episode | The Resort",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/0wztU1J5gGs",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "FMcqWPPbA4I",
+   "title": "When Summer Camp Turns Into a Magic Showdown | Rudra | रुद्र",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/FMcqWPPbA4I",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "-8A7HDdXRWI",
+   "title": "सुखी परिवार का पुरस्कार I Hunny Bunny Jholmaal Cartoons for kids Hindi| बच्चो की कहानियां ",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/-8A7HDdXRWI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "79BEM069M3s",
+   "title": "Gattu Battu | Full Epi 115 | सुनो डॉगी 🐶, मैं तुम्हे बहुत सारी हड्डियां 🍖 दूंगा! जाओ और उस",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/79BEM069M3s",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "P5413f1Bmyg",
+   "title": "Little Singham vs Bhuchal & Lava Dhatu Raja! | LITTLE SINGHAM",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/P5413f1Bmyg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "iqcteN9sFcg",
+   "title": "Motu Patlu Ka Flying Machine Adventure | Motu Patlu Compilation | Cartoons For Kids",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/iqcteN9sFcg",
+   "thumb": "",
+   "featured": true
+  },
+  {
+   "id": "fAR8VbawhaY",
+   "title": "Chhota Bheem - Season ka Pehla Aam | Dholakpur Mangoes | Summer Fun Cartoons for Kids",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/fAR8VbawhaY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "m75U6f73-Uk",
+   "title": "Shiva और दोस्तों पर टूटा समंदर का डरावना हमला | Shiva | शिवा",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/m75U6f73-Uk",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "3qswQGxfEhs",
+   "title": "Rudra और Ape Land का राजा! | Rudra | रुद्र",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/3qswQGxfEhs",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "DhtA9in4q9U",
+   "title": "रेस्टोरेंट का झोल I Hunny Bunny Jholmaal Cartoons for kids Hindi | बच्चो की कहानियां | Son",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/DhtA9in4q9U",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "Qev24C6ERtQ",
+   "title": "Gattu Battu | Full Episode | Sher Singh ने फंसाया Gattu Battu को! देखिए मस्ती 🦁😆",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/Qev24C6ERtQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "vER6B5UQKSk",
+   "title": "Mirchi Nagar Mein Aaya Colourful Zombies Ka Attack! 😱 | Little Singham vs Alien Virus | Ne",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/vER6B5UQKSk",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "mRkW7U8yH08",
+   "title": "Antarctica Adventure | Motu-Patlu | मोटू पतलू का हुआ ठण्ड से बेहाल | Motu Patlu TV Show Hi",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/mRkW7U8yH08",
+   "thumb": "",
+   "featured": true
+  },
+  {
+   "id": "AYgUrdo8sE4",
+   "title": "Chhota Bheem - Dholakpur to Dwaraka | Cartoon for Kids | Krishna & Bheem Special",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/AYgUrdo8sE4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "Lq0k5go1X94",
+   "title": "Shiva ने बचाया Secret Folding Tank | Shiva | शिवा",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/Lq0k5go1X94",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "c0OQ4WeVhnY",
+   "title": "Dadaji की गैरमौजूदगी में Shakaal ने चला बड़ा दांव! | Rudra | रुद्र",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/c0OQ4WeVhnY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "Kcf-iO3wZAo",
+   "title": "डूगी बनाम गेंडा | Hunny Bunny Jholmaal Cartoons for kids Hindi | बच्चो की कहानियां | Sony ",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/Kcf-iO3wZAo",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "245NeDSaoYU",
+   "title": "Gattu Battu | Full Episode | भूकंप से लड़ाई! Gattu Battu की नई चुनौती 🌍💥",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/245NeDSaoYU",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "qCMrhsFfnpI",
+   "title": "Kamikaze Island ka KHATRA! | Little Singham & Super Squad FULL MOVIE | Kojima Battle",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/qCMrhsFfnpI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "Dt_zfT6jnRM",
+   "title": "Motu Patlu Aur Howrah Bridge Ka Jadui Toofan | Motu Patlu Full Episode | Wow Kidz",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/Dt_zfT6jnRM",
+   "thumb": "",
+   "featured": true
+  },
+  {
+   "id": "RsJWq5tPJ4k",
+   "title": "Chhota Bheem - Chowmein Party | Funny Food Adventure | Cartoons for Kids",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/RsJWq5tPJ4k",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "8jmpW2npArA",
+   "title": "Prince Indra और Shiva की अनोखी दोस्ती! | Shiva | शिवा",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/8jmpW2npArA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "A95Ul0X-dIQ",
+   "title": "Magic Competition की असली जंग | Rudra | रुद्र",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/A95Ul0X-dIQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "zDBl0wwMfOk",
+   "title": "बैंक डकैती का किस्सा I Hunny Bunny Jholmaal Cartoons for kids Hindi | बच्चो की कहानियां | ",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/zDBl0wwMfOk",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "lB--tGDgxtY",
+   "title": "Gattu Battu | Full Episode | Frog Man",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/lB--tGDgxtY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "6UjAnbGi92A",
+   "title": "Mirchi Nagar Par High-Tech Attack! | Little Singham, Lattu & Babli Form Super Squad | SUPE",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/6UjAnbGi92A",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "MLQm5ed5InE",
+   "title": "खतरनाक गुंडा मोटू | Dangerous Motu | Motu Patlu TV Show Hindi 2026 | Best of Motu Patlu",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/MLQm5ed5InE",
+   "thumb": "",
+   "featured": true
+  },
+  {
+   "id": "jyr6pkkyjA4",
+   "title": "Chhota Bheem - Dholakpur's Mystery | Cartoons for Kids | Fun Kids Videos",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/jyr6pkkyjA4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "ZqbX5-lydn4",
+   "title": "Sheru की गिरफ्तारी के बाद Plane बना हथियार | Shiva | शिवा",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/ZqbX5-lydn4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "8d3t3IMHBJo",
+   "title": "Rudra ने किया Snake Charmer का शिकार | Rudra | रुद्र",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/8d3t3IMHBJo",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "WEAAViTIYFw",
+   "title": "Book | Hunny Bunny Jholmaal Cartoons for kids Hindi | बच्चो की कहानियां | Sony YAY!",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/WEAAViTIYFw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "GjBCyTJA2K0",
+   "title": "Gattu Battu | Full Episode | Boxer's Revenge",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/GjBCyTJA2K0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "l_SMH5dpDnM",
+   "title": "Singham GOES ROGUE?! 😱 King Cobra's TOP AGENT Revealed!",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/l_SMH5dpDnM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "3vpFajRlf18",
+   "title": "जब Motu Patlu बने जिन्न! | Motu Patlu | मोटू पतलू",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/3vpFajRlf18",
+   "thumb": "",
+   "featured": true
+  },
+  {
+   "id": "J7K-sUCK3Dw",
+   "title": "Chhota Bheem | Tun Tun Mausi Hits the Jackpot!😲 | Cartoon for Kids | Funny Hindi Cartoon",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/J7K-sUCK3Dw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "hViO24OrMZw",
+   "title": "Shiva ने Joker का Game पलट दिया | Shiva | शिवा",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/hViO24OrMZw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "BXHO_cnMnfQ",
+   "title": "Rudra और Manimals का ख़तरनाक Trap! | Rudra | रुद्र",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/BXHO_cnMnfQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "532IsclnIw4",
+   "title": "आवाज़ का रियाज़ | Hunny Bunny Jholmaal Cartoons for kids Hindi|बच्चो की कहानियां | Sony YA",
+   "category": "cartoon",
+   "type": "youtube",
+   "url": "https://youtu.be/532IsclnIw4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "lDRpFrByh9Q",
+   "title": "परिवार का बटवारा | #Dinesh Lal Yadav Nirhua | Pariwaar Ka Batwara | New #Bhojpuri Film 202",
+   "category": "bhojpuri",
+   "type": "youtube",
+   "url": "https://youtu.be/lDRpFrByh9Q",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "CzC2vkPUvVA",
+   "title": "Full Movie | #Nirhua Hindustani 2 | Dinesh Lal Yadav 'Nirhua' | #Amrapali Dubey | New #Bho",
+   "category": "bhojpuri",
+   "type": "youtube",
+   "url": "https://youtu.be/CzC2vkPUvVA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "FlVVYIb7BC8",
+   "title": "#Full Movie - रोमियो राजा | Dinesh Lal Yadav Nirhua, Amrapali Dubey | Romeo Raja | New Bho",
+   "category": "bhojpuri",
+   "type": "youtube",
+   "url": "https://youtu.be/FlVVYIb7BC8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "RhADuVFXcko",
+   "title": "Nirahua Hindustani 3 | Full Bhojpuri Movie | Dinesh Lal Yadav \"Nirahua\", Aamrapali Dubey",
+   "category": "bhojpuri",
+   "type": "youtube",
+   "url": "https://youtu.be/RhADuVFXcko",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "Sd6EDlYe1h8",
+   "title": "FASAL - Full Movie #dineshlalyadav #nirahua #aamrapalidubey #Bhojpuri New Movie 2026",
+   "category": "bhojpuri",
+   "type": "youtube",
+   "url": "https://youtu.be/Sd6EDlYe1h8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "Ya8nN3AR1xc",
+   "title": "Full Movie | निरहुआ दूधवाला Dinesh Lal Yadav 'Nirhua' | #Amrapali Dubey | New #Bhojpuri Fi",
+   "category": "bhojpuri",
+   "type": "youtube",
+   "url": "https://youtu.be/Ya8nN3AR1xc",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "5l6tOLoVD5E",
+   "title": "किस किस को प्यार करू | KIS KIS KO PYAR KARU I BHOJPURI FULL MOVIE 2026 I DINESH LAL YADAV ",
+   "category": "bhojpuri",
+   "type": "youtube",
+   "url": "https://youtu.be/5l6tOLoVD5E",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "QOrtugmNAYg",
+   "title": "Full Movie - Mere Husband Ki Shadi Hai | Dinesh Lal Yadav, Amrapali, Kajal | Superhit Bhoj",
+   "category": "bhojpuri",
+   "type": "youtube",
+   "url": "https://youtu.be/QOrtugmNAYg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "72oSSuGyrNY",
+   "title": "NIRAHUA HINDUSTANI 4 | Full Bhojpuri Movie | निरहुआ हिंदुस्तानी 4 | Nirahua | Aamrapali | ",
+   "category": "bhojpuri",
+   "type": "youtube",
+   "url": "https://youtu.be/72oSSuGyrNY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sa4TAZ46NJE",
+   "title": "Patna Se Pakistan - Dinesh Lal Yadav “Nirahua“ - Super Hit Full Bhojpuri Movie",
+   "category": "bhojpuri",
+   "type": "youtube",
+   "url": "https://youtu.be/sa4TAZ46NJE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "4W6tKbxWVSg",
+   "title": "जोरदार मेहरारू | DINESH LAL YADAV NIRAHUA, AMRAPALI DUBEY, MADHU SHARMA | BHOJPURI FULL MO",
+   "category": "bhojpuri",
+   "type": "youtube",
+   "url": "https://youtu.be/4W6tKbxWVSg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "4B_jCsa-ocI",
+   "title": "Full Movie - Hum Hai Dulha Hindustani Bhojpuri Movie - Dinesh Lal Yadav \"Nirahua\", Aamrapa",
+   "category": "bhojpuri",
+   "type": "youtube",
+   "url": "https://youtu.be/4B_jCsa-ocI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "tAD0VYWEWZk",
+   "title": "Bheeshma (2026) New Released Hindi Dubbed Movie | #Nithin #RashmikaMandanna | #Diwali Spec",
+   "category": "south",
+   "type": "youtube",
+   "url": "https://youtu.be/tAD0VYWEWZk",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "KqDWK6WNL3M",
+   "title": "Skylab Hindi Dubbed Movie 2026 Full Movie | Satyadev, Nithya Menen, Rahul Ramakrishna | So",
+   "category": "south",
+   "type": "youtube",
+   "url": "https://youtu.be/KqDWK6WNL3M",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "UepQ4yg2TxQ",
+   "title": "5D - Hindi Dubbed Suspense Thriller Full Movie - Adithya, Aditi Prabhudeva, S. Narayan, Jy",
+   "category": "south",
+   "type": "youtube",
+   "url": "https://youtu.be/UepQ4yg2TxQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "9_pXSHnPk7Q",
+   "title": "HIT: 3 (2025) | Nani New South Hindi Dubbed Full Movie | Action Crime Thriller | Full Movi",
+   "category": "south",
+   "type": "youtube",
+   "url": "https://youtu.be/9_pXSHnPk7Q",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "zsLMsPSbHNY",
+   "title": "Raja The Great (2026) New Released Hindi Dubbed Full Movie | Ravi Teja, Mehreen | Dussehra",
+   "category": "south",
+   "type": "youtube",
+   "url": "https://youtu.be/zsLMsPSbHNY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "a7AUwt5Ne_o",
+   "title": "Mission GoldFish New Released Hindi Dubbed Movie 2020 | Aadi, Sasha Chettri | Aditya Movie",
+   "category": "south",
+   "type": "youtube",
+   "url": "https://youtu.be/a7AUwt5Ne_o",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "Eg3PCOKgTb4",
+   "title": "Allu Arjun Superhit Action Comedy Hindi Dubbed Full Movie | सन ऑफ़ सत्यमूर्ति (HD) | समांथ",
+   "category": "south",
+   "type": "youtube",
+   "url": "https://youtu.be/Eg3PCOKgTb4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "en6qrGybhQU",
+   "title": "Vardi Ka Dum (Adanga Maru) Hindi Dubbed Full Movie | Jayam Ravi, Raashi Khanna | Karthik T",
+   "category": "south",
+   "type": "youtube",
+   "url": "https://youtu.be/en6qrGybhQU",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "S61Lds5bvbw",
+   "title": "Yevadu 2 - Ram Charan Superhit Hindi Dubbed Movie l Kajal Aggarwal, Srikanth, Prakash Raj",
+   "category": "south",
+   "type": "youtube",
+   "url": "https://youtu.be/S61Lds5bvbw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "Mpf1IYpOpF4",
+   "title": "Crazy Fellow Hindi Dubbed Movie 2026 Full Movie | Aadi Saikumar, Digangana Suryavanshi |Mi",
+   "category": "south",
+   "type": "youtube",
+   "url": "https://youtu.be/Mpf1IYpOpF4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "5u9fYYezm9k",
+   "title": "Shaitan (Saithan) 2018 New Released Hindi Dubbed Full Movie | Vijay Antony, Arundathi Nair",
+   "category": "south",
+   "type": "youtube",
+   "url": "https://youtu.be/5u9fYYezm9k",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "N0_uBt7qLPY",
+   "title": "VIKRAMADITHYAN Full Hindi Dubbed Movie | Dulquer Salmaan, Unni Mukundan, Namitha Pramod |S",
+   "category": "south",
+   "type": "youtube",
+   "url": "https://youtu.be/N0_uBt7qLPY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "8iW9qeJaE4I",
+   "title": "Kaithi (4K ULTRA HD) ACTION BLOCKBUSTER Hindi Dubbed Movie | Karthi, Arjun Das, Narain",
+   "category": "south",
+   "type": "youtube",
+   "url": "https://youtu.be/8iW9qeJaE4I",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "84k6ghUbizQ",
+   "title": "Highway New Released Hindi Dubbed Movie 2023 | Anand Deverakonda | Abhishek Banerjee | Adi",
+   "category": "south",
+   "type": "youtube",
+   "url": "https://youtu.be/84k6ghUbizQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "Z-W22qePJVE",
+   "title": "Missing (2018) Full Movie | Tabu | Manoj Bajpayee | Annu Kapoor | Psychological Thriller |",
+   "category": "film",
+   "type": "youtube",
+   "url": "https://youtu.be/Z-W22qePJVE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "0v4Hbf0nl6E",
+   "title": "Golmaal Again Full Movie - Ajay Devgn, Tabu, Arshad, Johny, Kunal, Tusshar | Best Comedy",
+   "category": "film",
+   "type": "youtube",
+   "url": "https://youtu.be/0v4Hbf0nl6E",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "nIOIOaZYtS0",
+   "title": "Ajay Devgn, Arshad Warsi & Paresh Rawal's Superhit Cult Comedy Film - Golmaal | Rohit Shet",
+   "category": "film",
+   "type": "youtube",
+   "url": "https://youtu.be/nIOIOaZYtS0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "OOPnK96B7Hw",
+   "title": "Raanjhanaa Full Movie | Dhanush, Sonam Kapoor | Bollywood Superhit Romantic Movie | Abhay ",
+   "category": "film",
+   "type": "youtube",
+   "url": "https://youtu.be/OOPnK96B7Hw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "EgxdY-UshJs",
+   "title": "Tum Bin Full Movie: Priyanshu Chatterjee, Sandali Sinha, Himanshu Malik, Raqesh Bapat | Bh",
+   "category": "film",
+   "type": "youtube",
+   "url": "https://youtu.be/EgxdY-UshJs",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "uQK7NG89IS8",
+   "title": "Deewaar (2004) | Amitabh Bachchan | Sanjay Dutt | Akshaye Khanna | Bollywood Action Movies",
+   "category": "film",
+   "type": "youtube",
+   "url": "https://youtu.be/uQK7NG89IS8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "OjwUjpOy_vc",
+   "title": "Jiyo To Aise Jiyo",
+   "category": "film",
+   "type": "youtube",
+   "url": "https://youtu.be/OjwUjpOy_vc",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "XG9U_elK3Cw",
+   "title": "Devdas (2002) Full Movie in 8K/4K Ultra HD | SRK, Aishwarya & Madhuri | Most Tragic Love S",
+   "category": "film",
+   "type": "youtube",
+   "url": "https://youtu.be/XG9U_elK3Cw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "UO1ZYyS6OaY",
+   "title": "Fun2shh (2003) (HD & Eng Subs) - Paresh Rawal - Gulshan Grover - Raima Sen - Best Comedy M",
+   "category": "film",
+   "type": "youtube",
+   "url": "https://youtu.be/UO1ZYyS6OaY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "yFb5S10sGl0",
+   "title": "Kitaab Full Movie | Uttam Kumar, Vidya Sinha, Shreeram Lagoo, Master Tito | School Life Mo",
+   "category": "film",
+   "type": "youtube",
+   "url": "https://youtu.be/yFb5S10sGl0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "EFtN_yNGIhY",
+   "title": "बॉलीवुड की सबसे सुपरहिट बोल्ड मूवी | Hunterrr (HD) | Radhika Apte | Sai Tamhankar | Gulsha",
+   "category": "film",
+   "type": "youtube",
+   "url": "https://youtu.be/EFtN_yNGIhY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "EyIq2K-kqDk",
+   "title": "Suhaag Raat {HD} Jeetendra - Rajshree - Sulochana Latkar - Mehmood Hindi Movie (With Eng S",
+   "category": "film",
+   "type": "youtube",
+   "url": "https://youtu.be/EyIq2K-kqDk",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "Yj6e4QuXKG8",
+   "title": "Drishyam Full Hindi Movie | अजय देवगन की चालाकी के आगे बेबस हुई पूरी पुलिस | 4K Movie | Aj",
+   "category": "film",
+   "type": "youtube",
+   "url": "https://youtu.be/Yj6e4QuXKG8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "Bj0n-8J2Ofc",
+   "title": "Mammootty & Varalaxmi Sarathkumar's Action Thriller Movie | Kasaba Hindi Dubbed Movie | Ne",
+   "category": "film",
+   "type": "youtube",
+   "url": "https://youtu.be/Bj0n-8J2Ofc",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "Rko4I8NROMc",
+   "title": "Tanu Weds Manu Full Movie | Valentine Special Movie | R. Madhavan | Kangana Ranaut | Jimmy",
+   "category": "film",
+   "type": "youtube",
+   "url": "https://youtu.be/Rko4I8NROMc",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "S0nC_9yOkbY",
+   "title": "AIRLIFT 4K Full Movie: Akshay Kumar | Nimrat Kaur | Raja Krishna | New Hindi Movie | Bhush",
+   "category": "film",
+   "type": "youtube",
+   "url": "https://youtu.be/S0nC_9yOkbY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "YuLZPu3PnZQ",
+   "title": "Sai Pallavi’s Diya | Full Horror Thriller Movie Hindi Dubbed | Naga Shaurya | South Indian",
+   "category": "horror",
+   "type": "youtube",
+   "url": "https://youtu.be/YuLZPu3PnZQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "ZYJQwJeUn-g",
+   "title": "Kalinga Hindi New Released Horror Thriller Full Movie | Dhruva Vaayu, Pragya | South Dubbe",
+   "category": "horror",
+   "type": "youtube",
+   "url": "https://youtu.be/ZYJQwJeUn-g",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "nXsTxaHmmTo",
+   "title": "Bhoot (2003) - Ajay Devgan - Urmila Matondkar - Best Horror Movie",
+   "category": "horror",
+   "type": "youtube",
+   "url": "https://youtu.be/nXsTxaHmmTo",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "fboOF3l9bC8",
+   "title": "13B - New Released Full Hindi Horror Movie 4K - R. Madhavan, Neetu Chandra, Sachin Khedeka",
+   "category": "horror",
+   "type": "youtube",
+   "url": "https://youtu.be/fboOF3l9bC8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "3WGl3EiBBmI",
+   "title": "NEW RELEASED SOUTH SCARIEST HORROR BLOCKBUSTER! Movie: THE DOOR | Bhavana, Ganesh V | Full",
+   "category": "horror",
+   "type": "youtube",
+   "url": "https://youtu.be/3WGl3EiBBmI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "zWNQcC7Pu-k",
+   "title": "AATMA KA VASH - Hindi Dubbed Full Movie | Anushka Shetty, Unni Mukundan | Horror Action Mo",
+   "category": "horror",
+   "type": "youtube",
+   "url": "https://youtu.be/zWNQcC7Pu-k",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "nNaKHC9M-ho",
+   "title": "Hindi Dubbed South Horror Full Movie | TRIPURA | Swathi Reddy, Naveen Chandra",
+   "category": "horror",
+   "type": "youtube",
+   "url": "https://youtu.be/nNaKHC9M-ho",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "UyL9hvUBPi4",
+   "title": "शादीशुदा जोड़े के नए फ्लैट में अजीब भूत है: The Wife (2021) Horror Movie | Gurmeet Choudha",
+   "category": "horror",
+   "type": "youtube",
+   "url": "https://youtu.be/UyL9hvUBPi4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "s10A5WXqsWo",
+   "title": "Rakht (2004) Full Hindi Horror Movie | Sanjay Dutt, Suniel Shetty, Dino Morea, Bipasha Bas",
+   "category": "horror",
+   "type": "youtube",
+   "url": "https://youtu.be/s10A5WXqsWo",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "oDalYZ_kBiU",
+   "title": "Horror Thriller Hindi Dubbed Movie \"KHAUFNAK MAHAL\" | Anushka Shetty, Unni Mukundan | Sout",
+   "category": "horror",
+   "type": "youtube",
+   "url": "https://youtu.be/oDalYZ_kBiU",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "7DtOr4L1wj0",
+   "title": "KADAMPARI - Horror Full Movie Hindi Dubbed | Kaashima Rafi, Akila Narayanan | South Movie",
+   "category": "horror",
+   "type": "youtube",
+   "url": "https://youtu.be/7DtOr4L1wj0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "tcCKWIYsGbA",
+   "title": "Bollywood Soothing Songs | Non Stop Mind Relaxing Songs | Bollywood Slow Hindi Songs | T-S",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/tcCKWIYsGbA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "SI3cjQISDqs",
+   "title": "90's Hits Hindi Songs | Pehla Nasha | Banthan Ke | Jaadu Teri Nazar | Ek Ladki Ko Dekha | ",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/SI3cjQISDqs",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "ecXd4kiqTds",
+   "title": "दिनेश लाल यादव निरहुआ हिट्स || Hits Of Dinesh Lal Yadav || Nonstop Nirahua Hit Songs - Juk",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/ecXd4kiqTds",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "Kx4c66-GjgE",
+   "title": "#Video | आहो राजा | #Pawan Singh | Featuring : #Darshana Banik | Aaho Raja | New #Bhojpuri",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/Kx4c66-GjgE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "I0b88L53Gbg",
+   "title": "Best Of Bollywood Dance Hits 8K (Video Jukebox) | Non Stop Bollywood Dance Songs",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/I0b88L53Gbg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "PWyXe6fzsmM",
+   "title": "Bollywood 90's Romantic Songs | Video Jukebox | Hindi Love Songs | Tips Official | 90's Hi",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/PWyXe6fzsmM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "XySzW-dQ2iY",
+   "title": "Sipahi All Movie Songs | Dinesh Lal Nirahuaa | Video Jukebox | Bhojpuri Superhit Movie Son",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/XySzW-dQ2iY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "AqZc86O3Lzg",
+   "title": "चुसेला ओठलाली देवरा (4K Video) #Chandan Chanchal | Chusela Othlali Devra | Viral Bhojpuri ",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/AqZc86O3Lzg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "zeVWTY31Vn8",
+   "title": "Top 30 Romantic Hindi Songs | Audio Jukebox | Bollywood Love Songs | Evergreen Melodies",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/zeVWTY31Vn8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "1YddSDFIsk4",
+   "title": "90s Bollywood All Time Hit Songs | 90s Evergreen Songs | 90s Hits Hindi Songs |90s Old Is ",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/1YddSDFIsk4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "RyLnSJor490",
+   "title": "Dinesh Lal Yadav \"Nirahua\" Movie Songs | Saat Saheliyan Movie All Songs - Jukebox | Movie ",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/RyLnSJor490",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "j5Tt0eyhaU8",
+   "title": "नथुनिया पागल कईले बा - #Pawan Singh, Kajal Raghwani | Nathuniya Pagal Kaile Ba | Hukumat M",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/j5Tt0eyhaU8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "pgpCsZroa3g",
+   "title": "Mood Lifter Songs | Audio Jukebox | Feel-Good Hindi Songs | Uplifting and Energetic Bollyw",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/pgpCsZroa3g",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "rN-VqYxs_iE",
+   "title": "90's Evergreen Songs | Old Is Gold Hindi Songs | 90's Superhit Sadabahar Gaane | 90's Old ",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/rN-VqYxs_iE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "t0iIU8NhN-U",
+   "title": "राजा बाबू | Dinesh lal Yadav Nirahua Best Movie Songs | Raja Babu All Songs Jukebox | Film",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/t0iIU8NhN-U",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "c4JD7rEtIj8",
+   "title": "#Chhalakata Hamro Jawaniya - #pawansingh ,#Kajal Raghwani, #priyanka singh @WorldwideRecor",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/c4JD7rEtIj8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "A3NTY8AjzK8",
+   "title": "Bollywood Sukoon Mix | Non-Stop Soothing Songs | Slow Hindi Songs | T-Series",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/A3NTY8AjzK8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "ox2ScaPXDcg",
+   "title": "90's Ke Superhits Romantic Gaane | Bollywood Hindi Songs | HIndi Sadabahar Bollywood Jukeb",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/ox2ScaPXDcg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "ODHfGjdVUZo",
+   "title": "Dinesh Lal Yadav \"Nirahua\" Movie Songs | Saat Saheliyan Movie All Songs - Jukebox | Movie ",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/ODHfGjdVUZo",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "cRgrrrdqbLM",
+   "title": "अफीम (Official Video) #Khesari Lal Yadav | Kangana Sharma | #Shilpi Raj | Afeem | New #Bho",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/cRgrrrdqbLM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "XKqYT4pCXkY",
+   "title": "NON-STOP ROAD TRIP SONGS: Arijit Singh | Mohit Chauhan | Atif Aslam | Bollywood Travelling",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/XKqYT4pCXkY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "ABKRxD_xW7s",
+   "title": "हिंदी सदाबहार गाने | Hindi Evergreen Songs | 90's Nostalgic Hindi Songs | Audio Jukebox",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/ABKRxD_xW7s",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "ws7_ju9QLJY",
+   "title": "दिनेश लाल यादव निरहुआ हिट्स- वीडियो ज्यूकबॉक्स- भोजपुरी हॉट सांग 2015",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/ws7_ju9QLJY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "gcg_69uYLXU",
+   "title": "सबसे हिट गीत - मन करेला की ना - Mohabbat - Chintu - Bhojpuri Hit Song @WaveMusicIndia",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/gcg_69uYLXU",
+   "thumb": "",
+   "featured": false
+  }
+ ]
 }
