@@ -61,9 +61,445 @@
    "id": "song",
    "name": "गाना",
    "icon": "🎵"
+  },
+  {
+   "id": "bhakti",
+   "name": "भक्ति भजन",
+   "icon": "🙏"
+  },
+  {
+   "id": "kids",
+   "name": "बच्चों की कविता",
+   "icon": "👶"
+  },
+  {
+   "id": "comedy",
+   "name": "कॉमेडी",
+   "icon": "🤣"
+  },
+  {
+   "id": "kheti",
+   "name": "खेती-किसानी",
+   "icon": "🌾"
+  },
+  {
+   "id": "recipe",
+   "name": "रसोई",
+   "icon": "🍲"
   }
  ],
  "items": [
+  {
+   "id": "live-news18-bihar-jharkhand",
+   "title": "🔴Bihar Jharkhand News LIVE: UP Seat Sharing Update | Anant Singh Daughter Wedding | Gold Price Today",
+   "category": "live",
+   "type": "youtube",
+   "url": "https://youtu.be/vScOA_jmaKw",
+   "thumb": "",
+   "featured": true,
+   "live_query": "News18 Bihar Jharkhand live",
+   "live_channel": "News18 Bihar Jharkhand"
+  },
+  {
+   "id": "live-zee-bihar-jharkhand",
+   "title": "🔴ZEE Bihar Jharkhand 24x7 LIVE : Bihar Flood | BPSC TRE 4 | Bihar Jobs |   CM Samrat | Hemant Soren",
+   "category": "live",
+   "type": "youtube",
+   "url": "https://youtu.be/FErZGYKVhEY",
+   "thumb": "",
+   "featured": false,
+   "live_query": "Zee Bihar Jharkhand live",
+   "live_channel": "Zee Bihar Jharkhand"
+  },
+  {
+   "id": "live-abp-news",
+   "title": "Sandeep Chaudhary LIVE: शिक्षा और रोजगार..लगाएंगे SP की नैया पार? | UP Elections News | SP Manifesto",
+   "category": "live",
+   "type": "youtube",
+   "url": "https://youtu.be/JeSA1YXvQOc",
+   "thumb": "",
+   "featured": false,
+   "live_query": "ABP News live",
+   "live_channel": "ABP NEWS"
+  },
+  {
+   "id": "C7gR-REPOwI",
+   "title": "Aaj Ki Taaja Khabar: आज की बड़ी खबरें | Anant Singh Daughter Wedding | Mokama | CM Samrat | News 18",
+   "category": "news",
+   "type": "youtube",
+   "url": "https://youtu.be/C7gR-REPOwI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "A_Mcb9ItC7I",
+   "title": "Aaj Ki Taaja Khabar: आज की बड़ी खबरें | Anant Singh Daughter Wedding | Mokama | CM Samrat | News 18",
+   "category": "news",
+   "type": "youtube",
+   "url": "https://youtu.be/A_Mcb9ItC7I",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "hRq-F6b7Duo",
+   "title": "Aaj Ki Taaja Khabar:आज की बड़ी खबरें| Nitish Setu| Anant Singh Daughter Weeding |CM Samrat |BiharNews",
+   "category": "news",
+   "type": "youtube",
+   "url": "https://youtu.be/hRq-F6b7Duo",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "RkwYFCmYHqQ",
+   "title": "Aaj Ki Taaja Khabar:आज की बड़ी खबरें| Nitish Setu| Anant Singh Daughter Weeding |CM Samrat |BiharNews",
+   "category": "news",
+   "type": "youtube",
+   "url": "https://youtu.be/RkwYFCmYHqQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "4xqH3vTKIEQ",
+   "title": "Anant Singh Daughter Wedding Live News :  अनंत सिंह को झटका, पंडाल में भरा पानी! | Bihar | Patna",
+   "category": "news",
+   "type": "youtube",
+   "url": "https://youtu.be/4xqH3vTKIEQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "TXeIQiFEYv4",
+   "title": "Anant Singh Daughter Wedding : Brijbhushan Sharan Singh पहुंचे Patna, गजब बोल रहे... | Bihar News",
+   "category": "news",
+   "type": "youtube",
+   "url": "https://youtu.be/TXeIQiFEYv4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "w9ILOJammu4",
+   "title": "Sasural Ka Insaf | Khesari Lal Yadav, Kajal Raghwani, Ritu Singh | New Bhojpuri Movie 2026 | Full HD",
+   "category": "bhojpuri",
+   "type": "youtube",
+   "url": "https://youtu.be/w9ILOJammu4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "H-I_Xx0RCNI",
+   "title": "प्यार का मुकद्दर | Pyar Ka Muqaddar | Khesari Lal Yadav & Kajal Raghwani | New Bhojpuri Movie 2026",
+   "category": "bhojpuri",
+   "type": "youtube",
+   "url": "https://youtu.be/H-I_Xx0RCNI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "Mnyf3LTQeEE",
+   "title": "Balam Ji Love You Full Movie | Khesari Lal Yadav, Kajal Raghwani | Bhojpuri Action Romance",
+   "category": "bhojpuri",
+   "type": "youtube",
+   "url": "https://youtu.be/Mnyf3LTQeEE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "Z_ls_C_peQE",
+   "title": "#Full Movie | बाघी (Baaghi)| #Pawan Singh | खतरनाक भोजपुरी Action फिल्म | #New Bhojpuri Movie 2026",
+   "category": "bhojpuri",
+   "type": "youtube",
+   "url": "https://youtu.be/Z_ls_C_peQE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "8G87CV6ixFE",
+   "title": "New Bhojpuri Movie (2026) Superhit Action Love Story Movie | Pawan Singh | Kajal Raghwani\" New Film",
+   "category": "bhojpuri",
+   "type": "youtube",
+   "url": "https://youtu.be/8G87CV6ixFE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "OcJlvcw8cdE",
+   "title": "PAWAN REDDY | पवन रेड्डी | New Bhojpuri Blockbuster Full Movie | Pawan Singh ,Kajal Raghwani मूवी",
+   "category": "bhojpuri",
+   "type": "youtube",
+   "url": "https://youtu.be/OcJlvcw8cdE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "W4hE45txCOw",
+   "title": "Aranmanai (HD) Superhit Horror Comedy Movie Dubbed In Hindi | Sundar C, Hansika | Latest Action Film",
+   "category": "horror",
+   "type": "youtube",
+   "url": "https://youtu.be/W4hE45txCOw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "4-iweTvwPTA",
+   "title": "Ram Pothineni & Raashii Khanna's Romantic Action Comedy Film | Shivam Full Hindi Dubbed Movie",
+   "category": "film",
+   "type": "youtube",
+   "url": "https://youtu.be/4-iweTvwPTA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "XSVS_hWays0",
+   "title": "मेहमान 3.0 \"Yogi Babu Comedy Movie\" सुपरहिट (HD) ब्लॉकबस्टर साउथ इंडियन हिंदी डब्ड कॉमेडी मूवी",
+   "category": "film",
+   "type": "youtube",
+   "url": "https://youtu.be/XSVS_hWays0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "ZohA8EfUWOI",
+   "title": "Thadaka 2 | नागा चैतन्य बर्थडे स्पेशल | Superhit Romantic Hindi Dubbed Movie | Anu Emmanuel, Ramya",
+   "category": "film",
+   "type": "youtube",
+   "url": "https://youtu.be/ZohA8EfUWOI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "yuyMkVVacLc",
+   "title": "Sharda Sinha Chhath Geet Non Stop Top 10",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/yuyMkVVacLc",
+   "thumb": "",
+   "featured": true
+  },
+  {
+   "id": "fOVGz9WFymU",
+   "title": "Ho Deenanath | BHOJPURI CHHATH GEET | SHARDA SINHA I FULL HD VIDEO SONG I SUROOJDEV KE ARGHIYA",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/fOVGz9WFymU",
+   "thumb": "",
+   "featured": true
+  },
+  {
+   "id": "6DePUrUWtmE",
+   "title": "Bhojpuri Chhath Pooja Songs I SHARDA SINHA I CHHATHI MAIYA I Full Audio Songs Juke Box I",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/6DePUrUWtmE",
+   "thumb": "",
+   "featured": true
+  },
+  {
+   "id": "L4yfGvEP0J4",
+   "title": "करिहइये कारखाना ह | #Khesari Lal Yadav & Neha Raj | Karihaiye Karkhana Ha | Ft. Rani | New Song 2026",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/L4yfGvEP0J4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "4-zWvsfMY38",
+   "title": "जन्नत के सुख (4K) #Khesari Lal Yadav | #Shilpi Raj | #Mehak B | Jannat Ke Sukh | New #Bhojpuri Song",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/4-zWvsfMY38",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "JlBr8wzCTZE",
+   "title": "#Video - #Khesari_Lal_Yadav | Gajab Tohar Naina | #Kajal_Raj | गजब तोहार नैना | Bhojpuri Song 2026",
+   "category": "song",
+   "type": "youtube",
+   "url": "https://youtu.be/JlBr8wzCTZE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "AETFvQonfV8",
+   "title": "हनुमान चालीसा उपशीर्षक के साथ [पूरा गीत] गुलशन कुमार, हरिहरन - श्री हनुमान चालीसा",
+   "category": "bhakti",
+   "type": "youtube",
+   "url": "https://youtu.be/AETFvQonfV8",
+   "thumb": "",
+   "featured": true
+  },
+  {
+   "id": "LUx8wlA_dk8",
+   "title": "श्री हनुमान चालीसा I Shree Hanuman Chalisa I GULSHAN KUMAR, HARIHARAN I Hanuman Chalisa Ashtak",
+   "category": "bhakti",
+   "type": "youtube",
+   "url": "https://youtu.be/LUx8wlA_dk8",
+   "thumb": "",
+   "featured": true
+  },
+  {
+   "id": "lE56rEKIwcE",
+   "title": "Beautiful Morning Bhajans | Krishna Bhajans | Bhakti Song | Shri Krishna Govind Hare Murari",
+   "category": "bhakti",
+   "type": "youtube",
+   "url": "https://youtu.be/lE56rEKIwcE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "xi-cgxfotJw",
+   "title": "Best Collection Krishna Bhajans | Bhakti Song | Krishna Songs | Kanha Ji Ke Bhajan | Krishna Bhajan",
+   "category": "bhakti",
+   "type": "youtube",
+   "url": "https://youtu.be/xi-cgxfotJw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "LWd_z7upri8",
+   "title": "अ से अनार - Hindi Varnamala Geet - Hindi Phonics Song + More Hindi Rhymes for Children - ChuChu TV",
+   "category": "kids",
+   "type": "youtube",
+   "url": "https://youtu.be/LWd_z7upri8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "cmcUUwfTSx0",
+   "title": "फल दोस्त हैं गाना (The Fruit Friends Song) - ChuChu TV Hindi Rhymes for Kids",
+   "category": "kids",
+   "type": "youtube",
+   "url": "https://youtu.be/cmcUUwfTSx0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "Z_qvUJo3DiM",
+   "title": "लाल  हरा  पीला  Colours Song - Hindi Rhymes For Children - ChuChu TV",
+   "category": "kids",
+   "type": "youtube",
+   "url": "https://youtu.be/Z_qvUJo3DiM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "iTV8-uioRc8",
+   "title": "शरारती गिलहरी | पंचतंत्र की कहानियां | Panchatantra Hindi Moral Story | Listen in Hindi",
+   "category": "kids",
+   "type": "youtube",
+   "url": "https://youtu.be/iTV8-uioRc8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "bL9WHpLbdQA",
+   "title": "रहस्यमई वृक्ष जादुई नगरी | Hindi Kahaniya | Moral Stories | Hindi Story | जादुई नगरी | रहस्यमई वृक्ष",
+   "category": "kids",
+   "type": "youtube",
+   "url": "https://youtu.be/bL9WHpLbdQA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "WxRNuMKrxaE",
+   "title": "भालू और खरगोश | बच्चों के लिए हिंदी नैतिक कहानी | बच्चों की कहानी #hindistories #moralstoryinhind...",
+   "category": "kids",
+   "type": "youtube",
+   "url": "https://youtu.be/WxRNuMKrxaE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "QdG9XS0giNg",
+   "title": "डाकू गब्बर सिंह ने कपिल को दी खुली धमकी | The Kapil Sharma Show S2 | Episode",
+   "category": "comedy",
+   "type": "youtube",
+   "url": "https://youtu.be/QdG9XS0giNg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "5p7ptnQsME8",
+   "title": "दी कपिल शर्मा शो | The Kapil Sharma Show Latest Episode | Diljit Dosanjh | Kapil Sharma Best Episode",
+   "category": "comedy",
+   "type": "youtube",
+   "url": "https://youtu.be/5p7ptnQsME8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "3SQ3l3fJ3gQ",
+   "title": "गेहूं की खेती | Gehu ki kheti karne ka Sahi Samay | गेहूं की खेती A to Z जानकारी | wheat Farming",
+   "category": "kheti",
+   "type": "youtube",
+   "url": "https://youtu.be/3SQ3l3fJ3gQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "YSmVmEaXEC8",
+   "title": "गेहूं में 50 कल्ले / फुटाव‌ कैसे निकलते हैं | ये बात कोई नहीं बतायेगा | gehu ki kheti kaise kare 🌾✌️",
+   "category": "kheti",
+   "type": "youtube",
+   "url": "https://youtu.be/YSmVmEaXEC8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "vyC27H3Rf58",
+   "title": "मक्का की खेती बिहार में| Maize cultivation in Bihar | Maize ki Kheti Kaise Hoti Hai",
+   "category": "kheti",
+   "type": "youtube",
+   "url": "https://youtu.be/vyC27H3Rf58",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "3c6zSPPGVfk",
+   "title": "कम खर्च में मक्के की सबसे अच्छी खेती कैसे करें? #agriculture #shorts #corn #vlog ",
+   "category": "kheti",
+   "type": "youtube",
+   "url": "https://youtu.be/3c6zSPPGVfk",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "CqF4iPq9000",
+   "title": "Litti Chokha Recipe | लिट्टी चोखा की आसान रेसीपी । Sattu stuffed Batti Chokha Recipe on Gas Stove",
+   "category": "recipe",
+   "type": "youtube",
+   "url": "https://youtu.be/CqF4iPq9000",
+   "thumb": "",
+   "featured": true
+  },
+  {
+   "id": "X3K0yXGv_wQ",
+   "title": "कुकर में बनाये लिट्टी चोखा गाँव जैसा | Litti Chokha Recipe | Litti chokha in Pressure Cooker |Kabita",
+   "category": "recipe",
+   "type": "youtube",
+   "url": "https://youtu.be/X3K0yXGv_wQ",
+   "thumb": "",
+   "featured": true
+  },
+  {
+   "id": "kGC_CMJL5TU",
+   "title": "बिहार के सबसे मशहूर व्यंजन का असली राज – लिट्टी चोखा! LITTI CHOKHA .BIHAR FAMOUS FOOD .",
+   "category": "recipe",
+   "type": "youtube",
+   "url": "https://youtu.be/kGC_CMJL5TU",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "YuPiyEsjsjI",
+   "title": "Authentic Dal Bhat Chokha Recipe | दाल भात चोखा | Easy Bihari Recipe by Chef Ajay Chopra",
+   "category": "recipe",
+   "type": "youtube",
+   "url": "https://youtu.be/YuPiyEsjsjI",
+   "thumb": "",
+   "featured": false
+  },
   {
    "id": "dd-news-bihar",
    "title": "DD News Bihar (पटना) लाइव",
