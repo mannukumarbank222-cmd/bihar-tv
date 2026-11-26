@@ -13,6 +13,11 @@
    "icon": "📰"
   },
   {
+   "id": "padhai",
+   "name": "पढ़ाई – Smart Exam Academy",
+   "icon": "📚"
+  },
+  {
    "id": "cartoon",
    "name": "कार्टून",
    "icon": "🧸"
@@ -95,11 +100,2729 @@
  ],
  "items": [
   {
+   "id": "sea-jBEgi-lthHc",
+   "title": "Physics Chapter 2 बल और गति के नियम | Newton's Laws of Motion One Shot | सभी सूत्र, MCQ + PYQ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/jBEgi-lthHc",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-W5cGa_uxxTI",
+   "title": "Physics Chapter 1 गति (Motion) One Shot 2026 | दूरी, विस्थापन चाल, वेग त्वरण, गति के सभी सूत्र | MCQ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/W5cGa_uxxTI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-MFg0Q6ieOTM",
+   "title": "गणित अध्याय 1 संख्या पद्धति (Number System) One Shot | MCQ + PYQ | Complete Course",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/MFg0Q6ieOTM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-rjgktBLEiU0",
+   "title": "संपूर्ण जीव विज्ञान One Shot | Biology Complete Course | Botany + Zoology | MCQ + PYQ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/rjgktBLEiU0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-9CZ9T10Yhuk",
+   "title": "संपूर्ण रसायन विज्ञान One Shot | Physical Organic, Inorganic Chemistry | MCQ + PYQ | Complete Course",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/9CZ9T10Yhuk",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-yi1radEqk6Q",
+   "title": "संपूर्ण हिंदी साहित्य One Shot | आदिकाल, भक्तिकाल, रीतिकाल, आधुनिक काल | MCQ + सभी प्रश्न उत्तर",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/yi1radEqk6Q",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-TZ1W0pbx9lc",
+   "title": "प्राचीन इतिहास One Shot | आदिम मानव से गुप्त काल तक संपूर्ण इतिहास | MCQ + PYQ | सभी प्रश्न उत्तर",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/TZ1W0pbx9lc",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-BCsd2q8GRQ0",
+   "title": "BA 1st Semester Geography MJC-1 | Unit 1 to 4 | 300+ Important MCQ + PYQ | Bihar University 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/BCsd2q8GRQ0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-KWFB1bdL-_o",
+   "title": "BA 1st Semester Economics Major Paper 1 | 200+ MCQ + PYQ | Unit 1 to 4 | Exam 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/KWFB1bdL-_o",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-TLK2LSmagAo",
+   "title": "BA 3rd Semester Geography Major Paper 4 | सम्पूर्ण MCQ + PYQ | Bihar University Exam 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/TLK2LSmagAo",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-KBHU0p-CeWg",
+   "title": "BA 3rd Semester Economics Major Paper 4 | 300+ MCQ + PYQ | Unit 1 to 4 | Bihar University 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/KBHU0p-CeWg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-C-Ys1Ji5604",
+   "title": "BA 3rd Semester Hindi MJC-4 | 300 महत्वपूर्ण MCQ | आधुनिक हिंदी कविता छायावाद तक | Bihar University",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/C-Ys1Ji5604",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-TVzZkH0pTk0",
+   "title": "BA 1st Semester Hindi MJC-1 | 330 महत्वपूर्ण MCQ | हिंदी साहित्य का इतिहास Unit 1 से 6 | 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/TVzZkH0pTk0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-7JAAi_GSalI",
+   "title": "BA 3rd Semester History MJC-4 | 500 महत्वपूर्ण MCQ | यूरोप का इतिहास 2026 | Bihar University",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/7JAAi_GSalI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-cGqlnCxeYa4",
+   "title": "BA 1st Semester History MJC-1 | Idea of Bharat | 292 महत्वपूर्ण MCQ + PYQ | Bihar University 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/cGqlnCxeYa4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-cZnOeKlfz68",
+   "title": "BA 1st Semester History MJC-1 | भारतीय साहित्य: वेदांग | Idea of Bharat Unit 1 | LNMU 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/cZnOeKlfz68",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-zhnL-VU5oXI",
+   "title": "BA 3rd Semester History Major 2026 | MJC-3 250 MCQ + PYQ | LNMU Exam 4 November histry MJC MCQ 250",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/zhnL-VU5oXI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-efs-ZlvwtS4",
+   "title": "BA 3rd Semester Sociology Major 2026 | MJC-3 150 MCQ + PYQ | LNMU Exam 5 November",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/efs-ZlvwtS4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-sz6k_CTMrp0",
+   "title": "BA 3rd Semester Political Science Major MJC-3 | 450 MCQ + PYQ | LNMU & All Bihar University 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/sz6k_CTMrp0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-bpRgJiA4HMI",
+   "title": "BA 3rd Semester History Major MJC-3 Day 4 | 50 Important MCQ + PYQ 2026 | LNMU Exam 4 November",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/bpRgJiA4HMI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-1dUtLLLLsVY",
+   "title": "BA 3rd Semester History MJC-3 2026 | 50 Important MCQ + PYQ | LNMU Exam 4 November",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/1dUtLLLLsVY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-DlygTHkEMLY",
+   "title": "BA 3rd Semester Economics Major 2026 | MJC-3 & MJC-4 | 300 Important MCQ + PYQ | LNMU",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/DlygTHkEMLY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-dWZZ0xyE6SU",
+   "title": "BA 3rd Semester Hindi Major 2026 | MJC-3 & MJC-4 | 400 MCQ + PYQ | LNMU Exam 5 November",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/dWZZ0xyE6SU",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-edSwLGtMIeU",
+   "title": "BA 3rd Semester Political Science MJC-3 | 50 MCQ PYQ 2025 | LNMU & BRABU Exam 4 Nov",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/edSwLGtMIeU",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-NLGB45CD4D4",
+   "title": "BA 3rd Semester History MJC-3 Day 2| 4 NO Exam 2026 | प्राचीन भारत 50 MCQ | LNMU | FREE Crash Course",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/NLGB45CD4D4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-zED5gmWIxXA",
+   "title": "BA 3rd Semester Economics Major MJC-3 | 50 Important MCQ | मुद्रा परिमाण सिद्धांत MV=PT | LNMU 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/zED5gmWIxXA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-K2bXqMvXoTs",
+   "title": "BA 3rd Semester Political Science MJC-3 | 50 Important MCQ | समानता (Equality) | LNMU 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/K2bXqMvXoTs",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-sv9tdMK94Ew",
+   "title": "BA 3rd Semester Hindi Major Day 3 | 50 Important MCQ | LNMU Exam 5 November 2026 | MJC-3 PYQ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/sv9tdMK94Ew",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-tOT5MW_0cHY",
+   "title": "BA 3rd Semester Hindi Major Day 2 | 50 MCQ | LNMU Exam 5 November 2026 | MJC-3 PYQ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/tOT5MW_0cHY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea--f8GoH_pfss",
+   "title": "BA 3rd Semester Economics MJC-4 Part 2| औद्योगिक व कारखाना मजदूरी 50 MCQ| LNMU Bihar University 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/-f8GoH_pfss",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-cL3_Tyv6JMw",
+   "title": "BA 3rd Semester Economics MJC-4 Day 1 | Index Numbers 50 MCQ | 23 November Exam 2026 | LNMU",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/cL3_Tyv6JMw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-EILlKtDC4-U",
+   "title": "BA 3rd Semester Hindi MCQ | आधुनिक हिंदी कविता : छायावाद तक 50 Important Questions | LNMU 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/EILlKtDC4-U",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-Uga3lyt6MCg",
+   "title": "BA 3rd Semester History MCQ | मौर्य, मौर्योत्तर एवं गुप्त काल 50 Important Questions | LNMU 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/Uga3lyt6MCg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-n4cHQT6R7Ko",
+   "title": "BA 3rd Semester Hindi MCQ | हिंदी साहित्य का इतिहास : आधुनिक काल 50 Important Questions | LNMU 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/n4cHQT6R7Ko",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-lIdQQCeXO0s",
+   "title": "Bihar University BA 3rd Semester Political Science Major MJC-5 2026 | 50 महत्वपूर्ण MCQ | ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/lIdQQCeXO0s",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-H062-CtC2b0",
+   "title": "प्राचीन भारत का इतिहास 50 महत्वपूर्ण MCQ | BA 3rd Semester History GK 2026 | Bihar University | LNMU",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/H062-CtC2b0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-vwQcGS60R7k",
+   "title": "🌍 पृथ्वी एवं भू-आकृतिक विज्ञान के 50 महत्वपूर्ण MCQ 🔥| भूगोल के VVI प्रश्न उत्तर सहित | Geography GK",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/vwQcGS60R7k",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-2Zy30JnqCiM",
+   "title": "BA 1st Geography 50 VVI Questions | भूगोल के महत्वपूर्ण वस्तुनिष्ठ प्रश्न उत्तर सहित | BA All Exams",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/2Zy30JnqCiM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-aBLs0TN5Ebw",
+   "title": "हिंदी साहित्य के 50 VVI वस्तुनिष्ठ प्रश्न उत्तर सहित | Hindi Sahitya MCQ Part 5 | BA 1st Semester",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/aBLs0TN5Ebw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-T0atLYbHf4M",
+   "title": "हिंदी साहित्य के 50 VVI वस्तुनिष्ठ प्रश्न एवं उत्तर | Hindi Sahitya MCQ Part 4 | BA 1st Semester MCQ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/T0atLYbHf4M",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-2ykuIfC7QeQ",
+   "title": "हिंदी साहित्य के 50 महत्वपूर्ण वस्तुनिष्ठ प्रश्न | Hindi Sahitya MCQ Part 3 | प्रतियोगी परीक्षा MCQ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/2ykuIfC7QeQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-6koM7QGXXno",
+   "title": "हिंदी साहित्य के 50 महत्वपूर्ण वस्तुनिष्ठ प्रश्न भाग-2 | Hindi Sahitya MCQ | साहित्य का इतिहास MCQ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/6koM7QGXXno",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-lG915VA-vjQ",
+   "title": "हिंदी साहित्य के 50 VVI Objective Questions and Answers | हिंदी साहित्य महत्वपूर्ण प्रश्न |Exam 2027",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/lG915VA-vjQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-rcQGaSjOO8Y",
+   "title": "BA 2nd Semester Hindi MJC MIC Unit 4 | भक्तिकालीन सगुण कवि रहीम और मीराबाई | BA Hindi Semester 2",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/rcQGaSjOO8Y",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-GPJx5G2HSqA",
+   "title": "BA 2nd Semester Hindi MJC MIC Unit 4 | सूरदास की काव्यगत विशेषताएँ | Easy Explanation",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/GPJx5G2HSqA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-7m52qUF_6zw",
+   "title": "BA 2nd Semester Hindi MJC MIC Unit 3 | तुलसीदास | Tulsidas | BA Semester 2 Hindi Notes",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/7m52qUF_6zw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-18fk0-wkDoc",
+   "title": "BA 2nd Semester Hindi Unit 2 | मलिक मुहम्मद जायसी और सूरदास | BA Semester 2nd Hindi",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/18fk0-wkDoc",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-zNfDeJMQdE8",
+   "title": "BA 2nd Semester Hindi Unit 1 | विद्यापति एवं कबीर | BA Semester 2 Hindi | Hindi Literature",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/zNfDeJMQdE8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-br2GcNVtnSE",
+   "title": "Bihar Board English Class 12 Chapter 3 One Shot | A Pinch of Snuff | Bihar Board 12th English",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/br2GcNVtnSE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-k2MMvi9OABg",
+   "title": "Bharat Is My Home Explanation | English Class 12 Chapter 2 Line By Line | Bihar Board",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/k2MMvi9OABg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-vCy_avDuDSg",
+   "title": "Indian Civilization And Culture Line By Line Explanation | Class 12 English Chapter 1 Bihar Board",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/vCy_avDuDSg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-NsJGdCReuN8",
+   "title": "12th Hindi काव्यखंड Chapter 13 (गाँव का घर) Full Explanation | Bihar Board 2027| 12th Hindi काव्यखंड",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/NsJGdCReuN8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-RpldnoHFva0",
+   "title": "12th Hindi हार-जीत Chapter 12 One Shot | Bihar Board Class 12 Hindi Haar Jeet Full Chapter 2027",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/RpldnoHFva0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-swRzd-x0kXU",
+   "title": "Class 12 Hindi Chapter 11 Kavya Khand | प्यारे नन्हें बेटे को सम्पूर्ण अर्थ | Bihar Board 2027",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/swRzd-x0kXU",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-2dmFUZLEGL4",
+   "title": "अधिनायक (Adhinayak) Chapter 10 | Class 12 Hindi सम्पूर्ण अर्थ | Board Exam 2027 Special",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/2dmFUZLEGL4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-tMqEcKE5HQ8",
+   "title": "12th Hindi Jan Jan Ka Chehra Ek || जन जन का चेहरे एक 12th Hindi || सम्पूर्ण अर्थ || Class 12th Hindi",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/tMqEcKE5HQ8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-jbuXmFLMSLE",
+   "title": "उषा | Hindi Class 12 Chapter 8 Sampurn Arth🔥 | 12th Hindi Usha Bihar Board | Hindi 12th Gady Khand",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/jbuXmFLMSLE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-B2Nk-gUzVtI",
+   "title": "पुत्र वियोग | 12th Hindi Chapter 7 Kavy Khand Bihar Board |Putra Viyog संपूर्ण अर्थ Class 12th Hindi",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/B2Nk-gUzVtI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-wxZ2sLZKWUY",
+   "title": "तुमुल कोलाहल कलह में (सम्पूर्ण अर्थ) || 12th Hindi Chapter 6 Kavy Khand Sampurn arth Bihar Board ||",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/wxZ2sLZKWUY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-mT7lWiGCq0c",
+   "title": "12th Hindi Chapter 5 कवित्त (सम्पूर्ण अर्थ) | Bihar Board 12th Hindi 2027 | कवित्त (काव्यखंड) |",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/mT7lWiGCq0c",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-qs4mdil1heQ",
+   "title": "Chhappay Class 12 | छप्पय कवि परिचय और संपूर्ण हिंदी अर्थ | 12th Hindi Chapter 4 | Bihar Board",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/qs4mdil1heQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-QSPKVR6PXBk",
+   "title": "तुलसीदास के पद का अर्थ | Tulsidas Ke Pad Class 12th Hindi | Class 12 Hindi Chapter 3 | Kavya Khand",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/QSPKVR6PXBk",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-QCCHwvvcZPo",
+   "title": "Hindi Class 12th Bihar Board 2027 | 40 Most Important Objective Questions | BSEB 12th Hindi MCQ 2027",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/QCCHwvvcZPo",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-rugjm1C7LDw",
+   "title": "हिंदी व्याकरण विलोम शब्द के 50 सबसे महत्वपूर्ण MCQ | Class 10th, 12th, BA & All Competition Exams",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/rugjm1C7LDw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-m2nQi_dVuGk",
+   "title": "हिंदी व्याकरण पर्यायवाची शब्द के 50 सबसे महत्वपूर्ण MCQ | Class 10th 12th BA & All Competition Exams",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/m2nQi_dVuGk",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-LQOToWhTjN4",
+   "title": "Hindi Grammar Deshaj Videshi Shabd Quiz | 30 MCQ | Board & Competition Exams Hindi Grammar MCQ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/LQOToWhTjN4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-QiKnJZ3He2Y",
+   "title": "हिंदी व्याकरण तत्सम-तद्भव के 50 सबसे महत्वपूर्ण MCQ | Class 10th, 12th, BA & All Competition Exams",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/QiKnJZ3He2Y",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-gzwhGPQCj6Y",
+   "title": "Hindi Vyakaran Objective | Shabd Vichar Objective | Tatsam Tadbhav Objective | Hindi Grammar Shabd",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/gzwhGPQCj6Y",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-7GgO4Hcfp1g",
+   "title": "हिंदी व्याकरण प्रत्यय | सम्पूर्ण हिंदी अर्थ | Class 10th, 12th, BA & All Competition Exams",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/7GgO4Hcfp1g",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-Ww4V4P9ld7g",
+   "title": "हिंदी व्याकरण प्रत्यय के 30 सबसे महत्वपूर्ण MCQ | Class 10th, 12th, BA & All Competition Exams",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/Ww4V4P9ld7g",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-MgYafVGJ4RY",
+   "title": "हिंदी व्याकरण उपसर्ग के 30 सबसे महत्वपूर्ण MCQ | Class 10th, 12th, BA & All Competition Exams",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/MgYafVGJ4RY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-CtzV-lkeMic",
+   "title": "हिंदी व्याकरण समास के 50 सबसे महत्वपूर्ण MCQ | Class 10th, 12th, BA & All Competition Exams",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/CtzV-lkeMic",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-htOkJ8d74xI",
+   "title": "हिंदी व्याकरण संधि के 50 सबसे महत्वपूर्ण MCQ | Class 10th, 12th, BA & All Competition Exams Sandhi ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/htOkJ8d74xI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-c2febzKqlRE",
+   "title": "Hindi Varnamala MCQ | Top 50 Questions | Class 10th, 12th, BA & All Exams हिंदी वर्णमाला ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/c2febzKqlRE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-X5naZI_iOjw",
+   "title": "BA 2nd Semester History One Shot | Unit 1 | प्रारंभिक विश्व सभ्यता का इतिहास | सभी वस्तुनिष्ठ प्रश्न",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/X5naZI_iOjw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-UffXXYJ0EHg",
+   "title": "BA 2nd Semester Political Science Unit 2 Objective | सरकार के अंग | BA Semester 2 Political Science",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/UffXXYJ0EHg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-KQef0UUOp40",
+   "title": "भूगोल MCQ Part 3 | Top VVI Questions | BA Sem 1 | SSC, UPSC, Railway, All Competitive Exams 2026 🔥",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/KQef0UUOp40",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-sHo4c65BR64",
+   "title": "Geography MCQ 1–50 | Part 2 Revised | Exam में पक्का आएगा | BA + All Competitive Exams BA all",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/sHo4c65BR64",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-ShID7Hr93kQ",
+   "title": "भारतीय संविधान के नीति-निदेशक तत्त्व | Top MCQ 2026 | All Exams Important Questions | DPSP",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/ShID7Hr93kQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-8nzJSA0jZ3U",
+   "title": "“BA Geography MCQ 🔥 | Top 50 Important Questions | Earth Origin | All University Exam 2026”",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/8nzJSA0jZ3U",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-tvoCfxFL7_E",
+   "title": "BA 2nd Semester Hindi MCQ| Top 50 VVI Questions |Exam में पक्का आएगा| All Exam 2026@SmartExamAcademy",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/tvoCfxFL7_E",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-TQX-YTFSwn8",
+   "title": "50 VVI MCQ हिंदी साहित्य | BA 2nd Semester | Exam 2026 | All Competitive Exams",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/TQX-YTFSwn8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-lvO28_nSheo",
+   "title": "BA 2nd Semester History | विश्व की प्रारंभिक सभ्यता | Unit 1 MCQ 2026 | All Competitive Exams",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/lvO28_nSheo",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-Tgi9EbcEOcs",
+   "title": "Swachh Bharat BA 1st Semester Purnea /JP University Objective Question | Swachh Bharat BA Sem 1 Exam",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/Tgi9EbcEOcs",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-wrMfKg7axqU",
+   "title": "Communication in Everydayday life BA 1st Semester Bihar All University Objective Question | BA Sem 1",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/wrMfKg7axqU",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-KAQWEf6KD2o",
+   "title": "मौलिक अधिकार (Article 12–35) | Top MCQ 2026 | BA 2nd Sem + All Competitive Exams @SmartExamAcademy ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/KAQWEf6KD2o",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-93ix7G0RvM0",
+   "title": "भारतीय संविधान का निर्माण | Top MCQ 2026| BA 2nd Semester + All Competitive Exams @SmartExamAcademy ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/93ix7G0RvM0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-P92_qV6e8Zs",
+   "title": "भारत का संविधान Top 100 MCQ | All Exam Important Questions 2026| Complete Revision@SmartExamAcademy ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/P92_qV6e8Zs",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-QqdyXzBbIVc",
+   "title": "BA 2nd Semester History Unit 1 | प्रारंभिक विश्व सभ्यता | Sources Survey | आसान भाषा में पूरा समझें",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/QqdyXzBbIVc",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-0XfZNFlGgIw",
+   "title": "BA 2nd Semester Political Science | नगर पालिका (Nagar Palika) | Unit-1 Part-1 | All Exam MCQ 2026 |",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/0XfZNFlGgIw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-32s_2yOpXKM",
+   "title": "BA 2nd Semester Political Science Unit 1 | भारतीय संविधान का निर्माण | BA Sem 2 Pol Science Part 1",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/32s_2yOpXKM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-rUfCkBRSves",
+   "title": "Harappa Civilization Explained | हड़प्पा सभ्यता | BA / BPSC / UPSC History | Part-1",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/rUfCkBRSves",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-h0TdJkTRPQI",
+   "title": "BA 2nd Semester History Unit 1 Objective Questions | चीन की सभ्यता | BA Semester 2nd History",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/h0TdJkTRPQI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-gwYvK-Qj0aA",
+   "title": "Class 10th Hindi Vish Ke Dant Objective || Class 10th Hindi Chapter 2 Objective Question",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/gwYvK-Qj0aA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-7K7wFdLodFQ",
+   "title": "Spoken English Practice | 25 Daily Use English Sentences | आसान तरीके से English बोलना सीखें",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/7K7wFdLodFQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-UPH9NCM0ahw",
+   "title": "Shram Vibhajan Aur Jati Pratha Objective Question || Bihar Board Class 10 Hindi Chapter 1 Objective",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/UPH9NCM0ahw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-xMIFRKEKgtI",
+   "title": "1st Semester Political Science MJC/MIC /MDC important Questions TMBU/LNMU Unuversity | Pol Science",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/xMIFRKEKgtI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-5VZ9SfVc_qs",
+   "title": "1st Semester Hindi MDC/MIC Important MCQ | TMBU/LNMU Hindi Semester 1 Exam MIC/MDC Question",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/5VZ9SfVc_qs",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-qxA3I10izSg",
+   "title": "BA 2nd Semester Hindi Unit 1 | विद्यापति एवं कबीर | BA Semester 2nd Hindi | Part 1Seo kar dijiye",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/qxA3I10izSg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-WARFKMdKWc0",
+   "title": "BA 1st Semester Communication In Everyday Life VVI Objective Questions 2025 | BA Semester 1 SEC MCQ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/WARFKMdKWc0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-RBoE2PdiIdk",
+   "title": "BA 1st Semester Hindi MIL Unit 1 Objective Questions 2026 | Hindi MIL Semester 1 MCQ | Important MCQ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/RBoE2PdiIdk",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-W6ySCiFENr8",
+   "title": "BA 1st Semester Swachh Bharat VVI Objective Questions 2026 | Swachh Bharat Semester 1 MCQ | BA BSc",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/W6ySCiFENr8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea--zS-Mtod8MA",
+   "title": "🔥 स्वच्छ भारत BA B.Sc B.Com 1st Semester Important Questions 2026 | VAC Swachh Bharat | LNMU",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/-zS-Mtod8MA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-Vcr_0EdEGI8",
+   "title": "Apna Multi-Tool Android App Aur Website Banwayein | APK + Website + HTML Code",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/Vcr_0EdEGI8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-WcutPVvVmR8",
+   "title": "BA 1st Semester Political Science VVI Objective Questions 2026 | BA Political Science Semester 1 MCQ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/WcutPVvVmR8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-vCQrGjIthEA",
+   "title": "BA 1st Semester History VVI Objective Questions 2026 | BA History Semester 1 MCQ | Exam Oriented",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/vCQrGjIthEA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-ELxDYJUwDPE",
+   "title": "BA 1st Semester Hindi Important Objective Questions | Hindi MIC MDC VVI Objective",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/ELxDYJUwDPE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-RhxxBlnxvac",
+   "title": "History BA 1st Semester Question Paper & Important Question 2026 | LNMU, TMBU, Purnea University",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/RhxxBlnxvac",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-7XMJyhvtbIY",
+   "title": "BA 1st Semester History VVI Objective Questions 2025 | BA History Semester 1 MCQ | Exam Oriented",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/7XMJyhvtbIY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-5XDB5NAGm6U",
+   "title": "BA 1st semester Hindi VVi Objective Questions 2025 | BA Hindi Semester 1 Important Mcq | Hindi MJC",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/5XDB5NAGm6U",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-usKQwv-6eHI",
+   "title": "BA 1st Semester History Unit 1 भारतवर्ष की अवधारणा | BA semester 1 important Objective questions",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/usKQwv-6eHI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-Jc9vHzk3vHM",
+   "title": "12th English Writer Name Trick 🔥 | Bihar Board 12th English | Smart Exam Academy",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/Jc9vHzk3vHM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-8A3_WCDVhjI",
+   "title": "यूनिट–2 व यूनिट–3 : भारतीय ज्ञान परंपरा, कला, संस्कृति, धर्म, दर्शन और वसुधैव कुटुंबकम | Complete",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/8A3_WCDVhjI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-MZ1pAxxdVGo",
+   "title": "12th English Writer Name Trick 🔥 | Bihar Board 12th English | Smart Exam Academy",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/MZ1pAxxdVGo",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-WQi3LQZb4_g",
+   "title": "यूनिट–1 हिंदी साहित्य | 30 Very Very Important वस्तुनिष्ठ प्रश्न | आदिकाल, भक्तिकाल, रीतिकाल",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/WQi3LQZb4_g",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-JAbwyU0yHW8",
+   "title": "Question Bank Se Kitna Marks Aayega? | Bihar Board Exam 2026 | Question Bank सच",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/JAbwyU0yHW8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-Z9kNrGgX68c",
+   "title": "यूनिट–4 भू-आकृतिक प्रक्रियाएँ | Weathering, Erosion, Davis & Penck Theory | Geography Hindi",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/Z9kNrGgX68c",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-XgL2jHaZwAk",
+   "title": "भू-आकृति विज्ञान BA First Semester | 50 वस्तुनिष्ठ प्रश्न | Geography Unit-1 | BPSC UPSC BA BSc",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/XgL2jHaZwAk",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-kYrBM76yKVM",
+   "title": "BA 1st Semester Geography Unit–3 | पर्वत निर्माण, भूकंप एवं ज्वालामुखी | Complete experience ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/kYrBM76yKVM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-O7qCISKwwao",
+   "title": "B.A. 1st Sem Geography Unit–2 | भूसन्नति, महाद्वीपीय विस्थापन, प्लेट विवर्तनिकी  Hindi Explanation",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/O7qCISKwwao",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-4LtAGtWwcPM",
+   "title": "BA Semester 1 भूगोल | यूनिट–1 भू-आकृति विज्ञान | पृथ्वी की उत्पत्ति के सिद्धांत | Hindi",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/4LtAGtWwcPM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-qM86KQxu63A",
+   "title": "भू-आकृति विज्ञान BA Semester 1 | Definition, Scope, Importance | Geography Hindi",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/qM86KQxu63A",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-_9P03Qpnosc",
+   "title": "Class 10th Hindi Book Sampurn One Shot | CBSE Hindi Full Syllabus Revision 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/_9P03Qpnosc",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-cRkX0pgKlEA",
+   "title": "Class 10 Hindi काव्य खंड One Shot Complete | सभी कविताएँ अर्थ सहित | Board Exam 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/cRkX0pgKlEA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-BMmV_QluuLU",
+   "title": "Bihar Board Class 10 Top 100 Objectives 2026 | Bihar Board 10th Most Important Objective Questions",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/BMmV_QluuLU",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-9DEud_D4UEo",
+   "title": "BA 1st semester History VVi Objective Questions 2025 | BA History Semester 1 | Mcq",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/9DEud_D4UEo",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-TAfk3i_3UII",
+   "title": "जनवरी से पढ़कर बोर्ड परीक्षा में 95%+ कैसे लाएँ? | Board Exam 2026 Topper Strategy | Class 10 & 12",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/TAfk3i_3UII",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-6yh3odJkOrI",
+   "title": "Class 10 Hindi | गद्य खंड संपूर्ण हिंदी अर्थ, व्याख्या एवं सारांश सभी अध्याय | One Shot Complete | ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/6yh3odJkOrI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-zp-Oogg_5HM",
+   "title": "BA 1st semester Swachh Bharat VVi Objective Questions 2025 | BA Swachh Bharat Semester 1 | Mcq Day 2",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/zp-Oogg_5HM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-9kNiHJ00rlk",
+   "title": "BA 1st semester Swachh Bharat VVi Objective Questions 2026| BA Swachh Bharat Semester 1 | Mcq part 1",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/9kNiHJ00rlk",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-A1hAGh7rLHE",
+   "title": "Class 12 History Chapter 1 Objective Questions 2026 | ईंटें, मनके तथा अस्थियाँ – हड़प्पा सभ्यता MCQ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/A1hAGh7rLHE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-OgnRl21WAnA",
+   "title": "Class 10 Hindi Chapter 8 – “जित-जित मैं निरखत हूँ (गोधूलि)” का One Shot Explanation | Bihar Board ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/OgnRl21WAnA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-8aAhkr5EZwc",
+   "title": "परंपरा का मूल्याकन | Hindi Class 10th Chapter 7 Bihar Board | Class 10th Hindi Bihar Board | Hindi",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/8aAhkr5EZwc",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-eql0L-QxxE8",
+   "title": "Geography Class 12 Chapter 7 | तृतीयक और चतुर्थ क्रियाकलाप | Class 12th Geography Chapter 7 in Hindi",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/eql0L-QxxE8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-P9zzsOeSueM",
+   "title": "Class 12 Geography Chapter 6 | द्वितीयक क्रियाएं | Secondary Activities | NCERT Geography",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/P9zzsOeSueM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-7SZoUklJY3I",
+   "title": "Geography Class 12 Chapter 5 | प्राथमिक क्रियाएँ | Primary Activities | Class 12 Geography One Shot",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/7SZoUklJY3I",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-cNtvtxW6Uss",
+   "title": "Geography Class 12 Chapter 4 | मानव विकास | Human Development | Class 12th Geography Chapter 3",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/cNtvtxW6Uss",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-5q8lMni8nkA",
+   "title": "जनसंख्या संघटन | Class 12 Geography Chapter 3 | One Shot Revision | Population Composition Explained",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/5q8lMni8nkA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-4PrVWrn6hHI",
+   "title": "Ba 1st Semester Hindi Literature Unit 6 | रीतिकालीन काव्य की भाषिक | Major Hindi Ba Sem 1",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/4PrVWrn6hHI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-ifBAEgC7lvU",
+   "title": "BA 1st Semester Hindi Literature Unit 5 | रीतिकालीन काव्य संपूर्ण अध्ययन | Major Hindi BA Semester 1",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/ifBAEgC7lvU",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-BlLYImSrgvs",
+   "title": "Ba 1st Semester Hindi Literature Unit 4 | भक्तिकालीन काव्य | Major Hindi Ba Semester 1",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/BlLYImSrgvs",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-wpTe6DyAhqE",
+   "title": "BA 1st Semester Hindi Sahitya Unit 3 | Sampurn Hindi Arth | Major Hindi BA Semester 1 | One Shot",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/wpTe6DyAhqE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-39mkDDhUnHw",
+   "title": "बहादुर कहानी | Class 10 Hindi Chapter 6 | Bahadur Story Explanation 2026 | गोधूलि",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/39mkDDhUnHw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-xes11_SwIcM",
+   "title": "BA 1st Semester Hindi Literature Unit 2 आदिकालीन काव्य पूरा विवरण | Major Hindi Semester 1 One Shot",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/xes11_SwIcM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-Q2roRiK0B_M",
+   "title": "BA 1st Semester Hindi Literature Unit 1 | साहित्य का इतिहास पूरा विवरण | Major Hindi BA Semester 1",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/Q2roRiK0B_M",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-3CwkBDo7SNM",
+   "title": "Class 10 Hindi Chapter 5 – नागरी लिपि (One Shot) | गोधूलि | Full Explanation | Board Exam 2025",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/3CwkBDo7SNM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-IehJMth-3UQ",
+   "title": "Class 12 Geography Chapter 2 – विश्व जनसंख्या वितरण, घनत्व और वृद्धि | One Shot | Full Explanation |",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/IehJMth-3UQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-BvB7aHB9z8Q",
+   "title": "नाखून क्यों बढ़ते हैं - कहानी Story (गोधूलि )||Nakhun Kyu Badhte hai ||Class10 Hindi Chapter 4 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/BvB7aHB9z8Q",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-nmluzDb5WxM",
+   "title": "Geography Class 12 Chapter 1 | मानव भूगोल प्रकृति एवं विषय क्षेत्र | Class 12th Geography Chapter 1",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/nmluzDb5WxM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-u6cRY0G1ki4",
+   "title": "Geography Class 12 Chapter 12 | भौगोलिक परिप्रेक्ष्य में चयनित कुछ मुद्दे एवं समस्याएं #geography ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/u6cRY0G1ki4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-RGYAOhs5YwY",
+   "title": "Geography Class 12 Chapter 11 | Full Explanation | अंतरराष्ट्रीय व्यापार | 12th Geography Chapter 11",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/RGYAOhs5YwY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-JktFgAuVWXg",
+   "title": "Class 10 Hindi Chapter 3 One Shot | भारत में हम क्या सीखें Story Class 10 |Bharat Se Ham Kya Sikhe |",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/JktFgAuVWXg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-vtRAWemifDQ",
+   "title": "Geography Class 12 Chapter 10 | परिवहन तथा संचार | Class 12 Geography Chapter 10 Notes | One Shot",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/vtRAWemifDQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-5JRRjEYRFXI",
+   "title": "विष के दाँत | Hindi class 10 chapter 2 Bihar board | Class 10 Hindi chapter 2 | Class 10th Hindi",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/5JRRjEYRFXI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-j0BnUtJ_sbg",
+   "title": "Class 12 Geography Chapter-9 भारत के संदर्भ में नियोजन एवं सतत पोषणीय विकास One Shot With Animation",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/j0BnUtJ_sbg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-E9FREWmY8io",
+   "title": "Geography Class 12 Chapter 8 | निर्माण उद्योग | Class 12th Geography Chapter 8 | 12 Geography Book 2",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/E9FREWmY8io",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-1u60I82LlHo",
+   "title": "श्रम विभाजन और जाति प्रथा निबंध कक्षा 10 (गोधूलि ) | Shram Vibhajan Aur Jati Pratha class 10 Hindi",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/1u60I82LlHo",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-C3guL1N8M0A",
+   "title": "खनिज तथा ऊर्जा संसाधन | Mineral And Energy Resources | Class 12 Geography Ch-7 | One Shot Animation",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/C3guL1N8M0A",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-rWU99P9jmp0",
+   "title": "Class 12 Geography Chapter-6 (Book-2) जल संसाधन | Water Resources Class12 | One Shot With Animation",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/rWU99P9jmp0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-Ba7N3OWCKc4",
+   "title": "भूसंसाधन तथा कृषि || Class 12 Geography Chapter-5 (Book-2) || One Shot Explanation With Animation",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/Ba7N3OWCKc4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-yuXf1hJQ9Ws",
+   "title": "Class 12 Geography Chapter-4 मानव बस्तियां (Book-2) One Shot Explanation With Animation",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/yuXf1hJQ9Ws",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-SIyt4VXDN9w",
+   "title": "Class 12 Geography Chapter 4 | मानव विकास (human development) | 12th Geography Chapter 4 | (SEA)",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/SIyt4VXDN9w",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-eHsHWPBdZVc",
+   "title": "Class 12 Political Science Chapter 1 | शीत युद्ध का दौर | Part 1 | 12th Political Science Chapter 1",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/eHsHWPBdZVc",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-jl_kVznrJFM",
+   "title": "भारतीय राजनीति : नए बदलाव (Indian Politics: New Changes) || Class 12th Political Science Chapter 9 |",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/jl_kVznrJFM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-iyXi1IoTDkg",
+   "title": "chapter 7 क्षेत्रीय आकांक्षाएँ class 12 political science 2025-26 ( kshetriya aakanshaen ) book 2",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/iyXi1IoTDkg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-2KA6VWkiUvE",
+   "title": "जन आंदोलनों का उदय | Political Science Class 12 Chapter 7 | Class 12th Political Science Chapter 7",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/2KA6VWkiUvE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-GY85tGR8IL8",
+   "title": "English Class 12 Tricks Bihar Board | Class 12th English Writer Name Tricks | Education Baba English",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/GY85tGR8IL8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-A1z3yfpb5rM",
+   "title": "Class 12 Geography Chapter 2 | प्रवास: प्रकार कारण और परिणाम | Geography Class 12th Chapter 2 Book 2",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/A1z3yfpb5rM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-YILONC65D2A",
+   "title": "Geography Class 12 Chapter 1 | जनसंख्या: वितरण घनत्व वृद्धि और संघटन| Class 12th Geography Chapter 1",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/YILONC65D2A",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-oWQxu3ZFdNg",
+   "title": "Class 12th Hindi Writer Name Trick || Bihar Board Class 12th Hindi Writer Name Trick || Sanjay Sir |",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/oWQxu3ZFdNg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-czomASkggV8",
+   "title": "Political Science Class 12 Chapter 6 | लोकतांत्रिक व्यवस्था का संकट Part 1 || 12th Pol Science Ch 6",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/czomASkggV8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-sZ-0bsb1WWU",
+   "title": "12th English Writer Name Trick Bihar Board 12th English Writer Name @SmartExamAcademy #12english ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/sZ-0bsb1WWU",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-FBIbedPiu6Y",
+   "title": "Political Science Class 12 Chapter 5 | कांग्रेस प्रणाली : चुनौतियां और पुनर्स्थापना | Part 1",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/FBIbedPiu6Y",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-1mxmhZgULuY",
+   "title": "Political Science Class 12 Chapter 4 | भारत के विदेश संबंध | One Shot| 12th Political Science Ch 4",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/1mxmhZgULuY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-w1VO6lNZSFo",
+   "title": "Political Science Class 12 Chapter 3 | नियोजित विकास की राजनीति | One Shot | 12th Political Science",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/w1VO6lNZSFo",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-5SjNxPUlvmw",
+   "title": "Political Science Class 12 Chapter 2 | एक दल के प्रभुत्व का दौर | Part 1 | 12th Political Science ||",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/5SjNxPUlvmw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-Nb2lebks9p8",
+   "title": "Political Science Class 12 Chapter 1 | राष्ट्र निर्माण की चुनौतियां Part 1 | 12th Political Science",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/Nb2lebks9p8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-OVDH5vBczbg",
+   "title": "History Class 12 Chapter 12 | औपनिवेशिक शहर (Colonial Cities) One Shot Class 12th History Chapter 12",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/OVDH5vBczbg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-oPn58lwK75M",
+   "title": "History Class 12 Chapter 11 | विद्रोही और राज | Part 1 | Class 12th History Chapter 11 One Shot ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/oPn58lwK75M",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-j6AQua0e9hI",
+   "title": "शिक्षा पाठ का हिंदी अर्थ | Hindi Class 12 Chapter 13 | Shiksha Line by Line Explanation",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/j6AQua0e9hI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-UCtr6FqKygI",
+   "title": "तिरिछ कहानी का हिंदी अर्थ | Hindi Class 12 Chapter 12 | Tirich Kahani Line by Line Explanation",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/UCtr6FqKygI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-MYy2sUXfDm0",
+   "title": "हंसते हुए मेरा अकेलापन का हिंदी अर्थ | Hindi Class 12 Chapter 11 | Hanste Hue Mera Akelapan Explain",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/MYy2sUXfDm0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-RQBSjgVZeXw",
+   "title": "जूठन क्लास 12 One Shot ||12th Hindi bihar board ||12th Hindi chapter 10||Juthan class 12 hindi||",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/RQBSjgVZeXw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-e09_DUCVQ58",
+   "title": "सूरदास के पद हिन्दी अर्थ | Hindi Class 12 Chapter 2 | Surdas Ke Pad Chapter Line by Line Explanation",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/e09_DUCVQ58",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-4D1tCS7gPXA",
+   "title": "कड़बक पाठ का हिन्दी अर्थ | Hindi Class 12 Chapter 1| Kadbak Chapter Line by Line Explanation",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/4D1tCS7gPXA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-rJl1oOTSgIQ",
+   "title": "Hindi Class 12 Chapter 9 | प्रगीत और समाज | Prageet Aur Samaj Class 12 Hindi | Bihar Board",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/rJl1oOTSgIQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-EMI6NyT52iI",
+   "title": "सिपाही की माँ हिन्दी अर्थ | Hindi Class 12 Chapter 8 | Sipahi Ki Maa Line By Line Explanation",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/EMI6NyT52iI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-jqD7b0BJ_cs",
+   "title": "ओ सदानीरा हिन्दी अर्थ | Hindi Class 12 Chapter 7 | O Sadanira Line By Line Explanation",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/jqD7b0BJ_cs",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-brHzfSvRzvc",
+   "title": "एक लेख और एक पत्र हिन्दी अर्थ | Hindi Class 12 Chapter 6 | Ek Lekh Aur Ek Patra Explanation",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/brHzfSvRzvc",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-ZnSlv09vIWU",
+   "title": "History Class 12 Chapter 10 | उपनिवेशवाद और देहात | One Short | Class 12th History Chapter 10",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/ZnSlv09vIWU",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-sqdCVmd5aq0",
+   "title": "History Class 12 Chapter 9 | शासक और इतिवृत्त Full Chapter | Part 1 | Class 12th History Chapter 9",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/sqdCVmd5aq0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-uB45inM7CPc",
+   "title": "Class 12 History Chapter 8 | किसान जमींदार और राज्य | History Class 12 Chapter 8 | One Short",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/uB45inM7CPc",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-L5zzzZghlKw",
+   "title": "Class 12 History Chapter 7 | एक साम्राज्य की राजधानी विजयनगर | History Class 12 Chapter 7 One Shot",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/L5zzzZghlKw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-0p7GDfqC8ug",
+   "title": "Class 12 History Chapter 6 | भक्ति सूफी परंपरा | History Class 12 Chapter 6 | One Short (sea)",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/0p7GDfqC8ug",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-l7jdhTFDRXE",
+   "title": "Class 12 History Chapter 5 | यात्रियों के नजरिए | History Class 12 Chapter 5 | One Shot",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/l7jdhTFDRXE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-nWNn50QHr_I",
+   "title": "2025-26 Thinkers Beliefs And Buildings Class 12 Chapter 4 History Full Chapter Easy Summary Explain",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/nWNn50QHr_I",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-X5f4bJjKRHY",
+   "title": "Class 12 History Chapter 3 | बंधुत्व जाति तथा वर्ग | History Class 12 Chapter 3 | One Shot (SEA)",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/X5f4bJjKRHY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-u_y3RrSd8f0",
+   "title": "Class 12 History Chapter 2 | राजा किसान और नगर | History Class 12 Chapter 2 | One Shot (SEA)",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/u_y3RrSd8f0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-9g27vm-F5lw",
+   "title": "Class 12 History Chapter-1 ईंटे, मनके तथा अस्थियां One Shot || Session 2025-26 || Animation Video",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/9g27vm-F5lw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-rcTukVoycjo",
+   "title": "Class 12th Hindi Chapter 5 रोज सम्पूर्ण अर्थ | Hindi Class 12th Chapter 5 | रोज सम्पूर्ण हिंदी अर्थ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/rcTukVoycjo",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-1B3otqGe58s",
+   "title": "BA 1st Semester Swachh Bharat Syllabus 2025 - 2029 | BA Semester 1 Swachh Bharat Syllabus (VAC)",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/1B3otqGe58s",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-VPvO3NmGASI",
+   "title": "Bharat Is My Home Explanation | English Class 12 Chapter 2 Line By Line | Bihar Board",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/VPvO3NmGASI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-AfFrSDADuFw",
+   "title": "Creative Writing Semester 1 Unit 1 रचनात्मक लेखन का परिचय और आधार Ba BSc Bcom 1st Semester one short",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/AfFrSDADuFw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-a2uaQIhM-OU",
+   "title": "political science for ba ma political science marxism राजनीति' क्या है  BA semester 1",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/a2uaQIhM-OU",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-Pj91y6Z2zgo",
+   "title": "Class 12 Hindi Ardhnarishwar (अर्धनारीश्वर)सम्पूर्ण हिन्दी अर्थ | Bihar Board Exam 2025 | By SEA",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/Pj91y6Z2zgo",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-NQ-o2gxOVqg",
+   "title": "Hindi Class 12 Chapter 3 || सम्पूर्ण क्रांति || Sampurn Kranti Hindi || Hindi Class 12 Bihar Board",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/NQ-o2gxOVqg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea--MITqQchuRw",
+   "title": "उसने कहा था पाठ का हिन्दी अर्थ | Hindi Class 12 Chapter 2 | Usne Kaha Tha Line by Line Explanation",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/-MITqQchuRw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-rMSxDcC0jD4",
+   "title": "Hindi Class 12 Chapter 1 || बातचीत हिन्दी अर्थ | Batchit Line By Line | Hindi Class 12 Bihar Board",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/rMSxDcC0jD4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-PlunXKWJtgg",
+   "title": "BA 1st Semester Geography Unit 1 | पृथ्वी की उत्पत्ति | BA Semester 1 Geography",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/PlunXKWJtgg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-HPgqkJyZ6tE",
+   "title": "BA 1st Semester Geography Unit 1 भूआकृति विज्ञान| BA Semester 1 Geography Important Questions",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/HPgqkJyZ6tE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-XqlZMHDFWOs",
+   "title": "BA 1st Semester Geography | भू-आकृति विज्ञान, पृथ्वी की उत्पत्ति | Easy Hindi Explanation",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/XqlZMHDFWOs",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-RpuaQFUOt-I",
+   "title": "Rajnitik Vigyan ka Paramparik Drishtikon  Political Science Traditional Approach BA first semester 1",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/RpuaQFUOt-I",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-QfSM4V0xeQg",
+   "title": "Ba 1st Semester Hindi Literature Unit 1 | साहित्य का इतिहास | Major Hindi Ba Semester 1",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/QfSM4V0xeQg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-5qmoKft6OgE",
+   "title": "BA 1st Semester History Unit 1 भारत वर्ष की औधारना| BA semester 1 history important questions",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/5qmoKft6OgE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-63rA_dpuFhM",
+   "title": "Indian Civilization And Culture Explanation | English Class 12 Chapter 1 Line By Line | Bihar Board",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/63rA_dpuFhM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-ebzl0eHo3UA",
+   "title": "\"सिंधु से स्वतंत्रता तक | From Indus Valley Civilization to Indian Independence Ba first semester",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/ebzl0eHo3UA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-LXXJ2l_8vPA",
+   "title": "Harappa Civilization  हड़प्पा सभ्यता का संपूर्ण हिंदी अर्थ Complete History of Harappa Civilization ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/LXXJ2l_8vPA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-lbhYf-OF_rk",
+   "title": "Geography Class 12th Objective Questions 2025 | Class 12 Geography Objective Question | 12th SEA",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/lbhYf-OF_rk",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-k-enO-1XSj0",
+   "title": "Top 25 GK MCQ in Hindi | All Exams 2025 | सामान्य ज्ञान प्रश्न | SSC, Railway, UPSC, Bihar Board SEA",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/k-enO-1XSj0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea--AZT15oChoU",
+   "title": "बल और गति के नियम (Laws of Motion) | Physics Full Chapter & MCQ Practice",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/-AZT15oChoU",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-opW-2nRopUw",
+   "title": "गणित अध्याय 1 संख्या पद्धति (Number System) One Shot | MCQ + PYQ | Complete Revision",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/opW-2nRopUw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-5rQddhESmTQ",
+   "title": "संपूर्ण जीव विज्ञान One Shot | Biology Complete Course | All Chapters | MCQ + PYQ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/5rQddhESmTQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-vXJL3ayVa1Y",
+   "title": "Physics Chapter 1 गति (Motion) One Shot | सभी सूत्र, MCQ + PYQ | Complete Revision",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/vXJL3ayVa1Y",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-vtrp8IGS490",
+   "title": "BA 3rd Semester Political Science Major Paper 4 |  सम्पूर्ण MCQ + PYQ Unit 1 to 5 | University 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/vtrp8IGS490",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-H4rlWcL1aF4",
+   "title": "BA 1st Semester History MJC-1 | Idea of Bharat | 292 Important MCQ Unit 1-5 | Bihar University 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/H4rlWcL1aF4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-d_Rv-73SL8I",
+   "title": "BA 1st Semester Political Science MJC-1 | 248 महत्वपूर्ण MCQ | इकाई 1 से 4 | Bihar University",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/d_Rv-73SL8I",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-0UGaI51hh3c",
+   "title": "BA 1st Semester Political Science MJC-1 Unit 2 | 50 Important MCQs | Schools of Political",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/0UGaI51hh3c",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-MgUh4Kg-qMQ",
+   "title": "BA 1st Semester Political Science Live Class 2026 | Smart Exam Academy",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/MgUh4Kg-qMQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-2dUrolzeokk",
+   "title": "BA 1st Semester History MJC-1 Unit 2 | भारतीय ज्ञान परंपरा, कला और संस्कृति | Idea of Bharat",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/2dUrolzeokk",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-APbBTt4oIrM",
+   "title": "BA 1st Semester History MJC-1 Unit 1 | Idea of Bharat | भारतवर्ष की अवधारणा | LNMU 2027",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/APbBTt4oIrM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-WSu1ne6MJPk",
+   "title": "BA 1st Semester History MJC-1 Unit 1 | Idea of Bharat | भारतवर्ष की अवधारणा | LNMU 2027",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/WSu1ne6MJPk",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-Ft9m2tQVc-0",
+   "title": "BA 1st Semester History Unit 2 | भारतीय ज्ञान परंपरा, कला एवं संस्कृति | History MJC-1 2026-27",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/Ft9m2tQVc-0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-TZcKCkI0XNI",
+   "title": "BA 1st Semester History MJC-1 Unit 1 | Idea of Bharat | भारतवर्ष की अवधारणा | LNMU Exam 2027",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/TZcKCkI0XNI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-GMiQ5I3hIQQ",
+   "title": "BA 1st Semester Hindi MJC-1 Unit 1 | हिंदी साहित्य का इतिहास | आदिकाल | LNMU Exam 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/GMiQ5I3hIQQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-gPZw27EUqFA",
+   "title": "BA 1st Semester Hindi Bhaktikal MCQ 2026 | 50 महत्वपूर्ण प्रश्न उत्तर | LNMU Exam तैयारी",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/gPZw27EUqFA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-gLZJQhvk20A",
+   "title": "BA 1st Semester Economics MIC-1 Unit 1 | अर्थशास्त्र की विषय-वस्तु | सम्पूर्ण हिंदी व्याख्या 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/gLZJQhvk20A",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-vAGLOVw-fAM",
+   "title": "BA 3rd Semester Political Science MJC-3 MCQ 2026 | 450 महत्वपूर्ण प्रश्न | LNMU Exam 4 November",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/vAGLOVw-fAM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-r0tKqcEU3YM",
+   "title": "हिंदी साहित्य 300+ VVI MCQ |BA 1st & 3rd Semester | LNMU Exam 2026 Hindi Sahitya Objective Questions",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/r0tKqcEU3YM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-fFSlZOqmqN4",
+   "title": "भारत का राष्ट्रीय पक्षी कौन है? 🦚 | GK Question | India GK | General Knowledge #Shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/fFSlZOqmqN4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-UInIjJJLVXo",
+   "title": "एक सवाल! भारत का राष्ट्रीय पशु कौन है? 🐅 सही जवाब है... #Shorts #GK #Quiz",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/UInIjJJLVXo",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-fA1j8GcRjEY",
+   "title": "एक सवाल! भारत का राष्ट्रीय पक्षी कौन है? 🇮🇳 | GK Quiz in Hindi #Shorts #GK #Quiz",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/fA1j8GcRjEY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-jSS6E_Nzv_E",
+   "title": "BA 2nd Semester Hindi Unit 2 | जायसी और सूरदास | #Shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/jSS6E_Nzv_E",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-lmtZVP_ijZE",
+   "title": "BA 2nd Semester Hindi Unit 1 | विद्यापति एवं कबीर | #Shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/lmtZVP_ijZE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-qYgy4y7Xrsc",
+   "title": "A Pinch of Snuff | Class 12 English Chapter 3 | Bihar Board #Shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/qYgy4y7Xrsc",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-UVJHwsLbeLQ",
+   "title": "Bharat Is My Home | Class 12 English | Bihar Board #Shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/UVJHwsLbeLQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-_bGwcJkQ488",
+   "title": "12th Hindi हार-जीत Chapter 12 One Shot | Bihar Board Class 12 Hindi Haar Jeet Full Chapter 2027",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/_bGwcJkQ488",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-3UV3ohU-chc",
+   "title": "प्यारे नन्हें बेटे को - सम्पूर्ण अर्थ | Class 12 Hindi Chapter 11 | Bihar Board Exam 2027",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/3UV3ohU-chc",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-saZ5DhHG0qg",
+   "title": "Class 12 Hindi Adhinayak Chapter 10 Full Explanation in Hindi | 2027 Board",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/saZ5DhHG0qg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-jQOfW7cqTa0",
+   "title": "जन-जन का चेहरा एक | Class 12 Hindi | सम्पूर्ण अर्थ | 12th Hindi जन जन का चेहरा एक | Bihar Board",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/jQOfW7cqTa0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-m1TDqIZlbhI",
+   "title": "उषा | Hindi Class 12 Chapter 8 Sampurn Arth🔥 | 12th Hindi Usha Bihar Board | Hindi 12th Gady Khand",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/m1TDqIZlbhI",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-jmrcsqNNhg4",
+   "title": "Chhappay Class 12 | छप्पय कवि परिचय और संपूर्ण हिंदी अर्थ | 12th Hindi Chapter 4 | Bihar Board",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/jmrcsqNNhg4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-7-v8Ts5am-c",
+   "title": "दुनिया का सबसे बड़ा महासागर कौन सा है? 🌊 | Amazing GK #shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/7-v8Ts5am-c",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-Z6dHVQt7k_Q",
+   "title": "भारत का राष्ट्रीय ध्वज किसने डिजाइन किया था? 🇮🇳 | GK Quiz | Important General Knowledge 2026",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/Z6dHVQt7k_Q",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-CcQAENUNkWk",
+   "title": "भारत का सबसे बड़ा राज्य क्षेत्रफल की दृष्टि से कौन-सा है? | GK Quiz  | India GK | Competitive Exams",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/CcQAENUNkWk",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-WsVMfRPGwJ8",
+   "title": "भारत की राजधानी कहाँ है? | India Ki Rajdhani Kahan Hai | GK 2026 | General Knowledge",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/WsVMfRPGwJ8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-O4R2PWpkUfk",
+   "title": "संविधान के Top Articles जो हर Exam में आते हैं | Article 12–35 आसान हिंदी में #shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/O4R2PWpkUfk",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-4PsMZpC7ISo",
+   "title": "भारत का संविधान आसान भाषा में | Indian Constitution Short Explanation #shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/4PsMZpC7ISo",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-ZPDtIAki6qc",
+   "title": "BA 2nd Semester History Unit 1 | प्रारंभिक विश्व सभ्यता | Sources Survey | All Exam MCQ 2026 #shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/ZPDtIAki6qc",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-2-e7rKMuP2k",
+   "title": "BA 1st Semester Political Science हिंदी में सम्पूर्ण अर्थ | Pol Science Explained",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/2-e7rKMuP2k",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-Atd43378RGM",
+   "title": "3D Skeleton Mango Adventure | Cinematic Tropical Animation 🍋🥭",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/Atd43378RGM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-3RWnkAePzC4",
+   "title": "इंसान बिना नींद के कितने दिन जिंदा रह सकता है? | Sleep Deprivation Effects Timeline | Dark Science",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/3RWnkAePzC4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-_rVZinzoAEg",
+   "title": "Ai से देखो: दुनिया का पहला स्मार्ट सिटी हड़प्पा और उसका विनाश | Harappa / Learn history with Ai",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/_rVZinzoAEg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-eA_ozrgJxKM",
+   "title": "History BA 1st Semester Question Paper 2026 | LNMU, TMBU, Purnea",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/eA_ozrgJxKM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-W2K_Q0ME0wE",
+   "title": "BA Semester 1 भूगोल | यूनिट–1 भू-आकृति विज्ञान | पृथ्वी की उत्पत्ति के सिद्धांत | Hindi",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/W2K_Q0ME0wE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-LSVmyG3SJZQ",
+   "title": "जनवरी से पढ़कर बोर्ड परीक्षा में 95%+ मार्क्स कैसे लाये ? | BOARD EXAM 2026 TOPPER KAISE BANE",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/LSVmyG3SJZQ",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-qwdyFKz46oE",
+   "title": "VAC Swachh Bharat Semester 1 Unit 1 स्वच्छ भारत अभियान का परिचय | Ba Bsc Bcom 1st Semester |",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/qwdyFKz46oE",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-T8aQWdEBYkk",
+   "title": "Class 12 History Chapter 1 Objective Questions 2026 | ईंटें, मनके तथा अस्थियाँ – हड़प्पा सभ्यता MCQ",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/T8aQWdEBYkk",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-greMZJjkfac",
+   "title": "परंपरा का मूल्यांकन | Hindi Class 10 Chapter 7 | Bihar Board | कक्षा 10 हिंदी #shorts #hindi",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/greMZJjkfac",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-FvWLRQl1PBc",
+   "title": "Geography Class 12 Chapter 7 | तृतीयक और चतुर्थ क्रियाकलाप | Class 12th Geography Chapter 6 |",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/FvWLRQl1PBc",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-STj3OJVEeeA",
+   "title": "Geography Class 12 Chapter 6 | द्वितीयक क्रियाएं | Class 12th Geography Chapter 5 |",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/STj3OJVEeeA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-LXLdlSdgpKM",
+   "title": "Geography Class 12 Chapter 5 | प्राथमिक क्रियाएं | Class 12th Geography | NCERT Explained",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/LXLdlSdgpKM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-7kjteZaK7C4",
+   "title": "Geography Class 12 Chapter 4 | मानव विकास (Human Development) | Class 12 Geography in Hindi | NCERT",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/7kjteZaK7C4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-KnF4f-GD8yM",
+   "title": "जनसंख्या संघटन | Class 12 Geography Chapter 3 | One Shot Revision | Population Composition Explained",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/KnF4f-GD8yM",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-hZOUZubqWl4",
+   "title": "BA 1st Semester Hindi Literature Unit 5 | रीतिकालीन काव्य संपूर्ण अध्ययन | Major Hindi BA Semester 1",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/hZOUZubqWl4",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-ggUDtSqgJPg",
+   "title": "Ba 1st Semester Hindi Literature Unit 4 | भक्तिकालीन काव्य | Major Hindi Ba Semester 1  #shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/ggUDtSqgJPg",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-7M-j-7fNIsw",
+   "title": "Ba 1st Semester Hindi Literature Unit 3 Important Question Answer | Major Hindi Ba Semester 1",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/7M-j-7fNIsw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-U6AWYJS08zU",
+   "title": "बहादुर कहानी | Class 10 Hindi Chapter 6 | Bahadur Story Explanation 2026 | गोधूलि",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/U6AWYJS08zU",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-OB10203nha0",
+   "title": "BA 1st Semester Hindi Literature Unit 2| आदिकालीन काव्य पूरा विवरण | Major Hindi One Shot #shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/OB10203nha0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-L32ST-Rf40M",
+   "title": "Class 10 Hindi Chapter 5 – नागरी लिपि (One Shot) | गोधूलि | Full Explanation | Board Exam 2025",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/L32ST-Rf40M",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-X7q8N0nkjXA",
+   "title": "नाखून क्यों बढ़ते हैं - कहानी Story (गोधूलि )||Nakhun Kyu Badhte hai ||Class10 Hindi Chapter 4 ||2025",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/X7q8N0nkjXA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-r8qW0vbCeg0",
+   "title": "Geography Class 12 Chapter 12 | भौगोलिक परिप्रेक्ष्य में चयनित कुछ मुद्दे एवं समस्याएं #shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/r8qW0vbCeg0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-WvkukwYvCJs",
+   "title": "Class 12 Geography Chapter-1 मानव भूगोल | Animation One Shot Video | Full Revision",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/WvkukwYvCJs",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-qpD1Q7im55w",
+   "title": "Class 10 Hindi Chapter 3 One Shot | भारत में हम क्या सीखें Story Class 10 |Bharat Se Ham Kya Sikhe |",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/qpD1Q7im55w",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-QGoIOtGZHzY",
+   "title": "विष के दांत कहानी कक्षा 10 (गोधूलि) | Vish Ke Dant Class 10 Summary | Class 10 Hindi Story #shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/QGoIOtGZHzY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-_o8mBGQ2GCw",
+   "title": "Geography Class 12 Chapter 11 | अंतर्राष्ट्रीय व्यापार | 12th Geography Chapter 11 | #shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/_o8mBGQ2GCw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-HknRyVIckJY",
+   "title": "chapter 7 परिवहन तथा संचार Class 12 geography book 2nd / 2024-25 parivahan tatha sanchar #shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/HknRyVIckJY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-_r1YG6UZbd8",
+   "title": "Class 12 Geography Chapter-9 भारत के संदर्भ में नियोजन एवं सतत पोषणीय विकास One Sho #shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/_r1YG6UZbd8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-yIH8Sba5JI8",
+   "title": "Geography Class 12 Chapter 8 | निर्माण उद्योग | Class 12th Geography Chapter 8 #shorts #geography",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/yIH8Sba5JI8",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-H6pZSQpcDOU",
+   "title": "खनिज तथा ऊर्जा संसाधन | Mineral And Energy Resources | Class 12 Geography Ch-7 | One Shot",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/H6pZSQpcDOU",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-m2-qO3N0YtA",
+   "title": "श्रम विभाजन और जाति प्रथा | Hindi Class 10 Chapter 1 | Class 10 Hindi Chapter 1 | Class 10 Ka Hindi",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/m2-qO3N0YtA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-jvunAVCIS7E",
+   "title": "भारतीय संविधान के MCQ prashn Important Topics of Indian Constitution | Exam-Oriented Complete Guide",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/jvunAVCIS7E",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-hIMrHRCjgz0",
+   "title": "Class 12 Hindi Chapter 2 Usne Kaha Tha | Summary, Q&A, Writer, Exam Notes | Bihar Board 2025",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/hIMrHRCjgz0",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-aYMjQlapcwk",
+   "title": "Class 12 Hindi Chapter 1 Baatcheet | Bihar Board 2025 | Full Explanation #hindi #shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/aYMjQlapcwk",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-meRSaU6VDMA",
+   "title": "इतिहास के महत्वपूर्ण प्रश्न | History Important Questions with Answers and #History #Trend #shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/meRSaU6VDMA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-szcRWf2sufY",
+   "title": "5 मज़ेदार GK प्रश्न और उत्तर | General Knowledge Questions in Hindi | Daily GK Quiz for Students #gk",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/szcRWf2sufY",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-t7tUMmUGlSs",
+   "title": "GK Quiz: Bharat ka Sabse Bada Rajya, Dilli Rajdhani Year, Chandrayaan-3 Launch Facts #gk #shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/t7tUMmUGlSs",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-4aIyyZ2wqOw",
+   "title": "GK Current Affairs 2025 | Top 3 Important Questions | Smart Exam Academy #GKQuestions #shorts #gk",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/4aIyyZ2wqOw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-VO076nw83lA",
+   "title": "Hindi Class 12 Chapter 1 Objective | बातचीत Objective | Batchit Class 12 Objective || #shorts",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/VO076nw83lA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-2ALmI_EWtdA",
+   "title": "Class 12 History Chapter 1 | ईंटें मनके तथा अस्थियाँ | Harappan Civilization | History Class 12",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/2ALmI_EWtdA",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-Bq6AYYL9I9Q",
+   "title": "Class 12 History Chapter 2 | राजा किसान और नगर | History Class 12 Chapter 2 | One Shot (SEA",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/Bq6AYYL9I9Q",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-ej8cZV3ygdw",
+   "title": "Class 12 History Chapter-1 ईंटे, मनके तथा अस्थियां One Shot || Session 2025-26 || Animation Video",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/ej8cZV3ygdw",
+   "thumb": "",
+   "featured": false
+  },
+  {
+   "id": "sea-XCwjloF_jcI",
+   "title": "Class 12th Political Science @smartexamAcademy",
+   "category": "padhai",
+   "type": "youtube",
+   "url": "https://youtu.be/XCwjloF_jcI",
+   "thumb": "",
+   "featured": false
+  },
+  {
    "id": "live-news18-bihar-jharkhand",
    "title": "🔴Bihar Jharkhand News LIVE: UP Seat Sharing Update | Anant Singh Daughter Wedding | Gold Price Today",
    "category": "live",
    "type": "youtube",
-   "url": "https://youtu.be/SDETyGldQNg",
+   "url": "https://youtu.be/vScOA_jmaKw",
    "thumb": "",
    "featured": true,
    "live_query": "News18 Bihar Jharkhand live",
