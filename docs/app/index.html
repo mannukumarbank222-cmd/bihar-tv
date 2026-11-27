@@ -42,15 +42,21 @@ const $=s=>document.querySelector(s);
 function ytId(u){const m=(u||'').match(/(?:v=|youtu\.be\/|embed\/|shorts\/|live\/)([\w-]{11})/);return m?m[1]:(/^[\w-]{11}$/.test(u)?u:null)}
 function thumb(i){if(i.thumb)return i.thumb;if(i.type==='youtube'){const id=ytId(i.url);if(id)return 'https://i.ytimg.com/vi/'+id+'/hqdefault.jpg'}return ''}
 function icon(c){const x=D.categories.find(k=>k.id===c);return x?x.icon:'📺'}
-async function load(){try{const r=await fetch(SRC+'?t='+Date.now());D=await r.json();localStorage.btv=JSON.stringify(D)}catch(e){if(localStorage.btv)D=JSON.parse(localStorage.btv)}
- $('#nt').textContent=D.notice||'Bihar TV';tabs();render()}
-function tabs(){$('#tabs').innerHTML=[{id:'all',name:'सब',icon:'🏠'}].concat(D.categories).map(c=>`<button class="tab ${c.id===cat?'on':''}" onclick="cat='${c.id}';tabs();render()">${c.icon} ${c.name}</button>`).join('')}
+async function load(){try{const r=await fetch(SRC+'?t='+Date.now());D=await r.json();try{localStorage.btv=JSON.stringify(D)}catch(e){}}catch(e){if(localStorage.btv)D=JSON.parse(localStorage.btv)}
+ for(const k in LZ)merge(LZ[k]);$('#nt').textContent=D.notice||'Bihar TV';tabs();render()}
+let LZ={},LIM=60;
+function merge(a){D.items=D.items.filter(x=>!(a.length&&x.category===a[0].category&&x.preview));const s=new Set(D.items.map(x=>x.id));a.forEach(x=>{if(!s.has(x.id))D.items.push(x)})}
+async function lazy(c){const k=D.categories.find(x=>x.id===c);if(!k||!k.src||LZ[c])return;$('#list').innerHTML='<div class="empty">लोड हो रहा है… ⏳</div>';
+ try{const r=await fetch('../'+k.src+'?v='+(k.v||1));const j=await r.json();LZ[c]=j.items||j;merge(LZ[c])}catch(e){}render()}
+function pick(c){cat=c;LIM=60;tabs();render();lazy(c);scrollTo(0,0)}
+
+function tabs(){$('#tabs').innerHTML=[{id:'all',name:'सब',icon:'🏠'}].concat(D.categories).map(c=>`<button class="tab ${c.id===cat?'on':''}" onclick="pick('${c.id}')">${c.icon} ${c.name}</button>`).join('')}
 function card(i){const t=thumb(i);return `<div class="card" onclick="play('${i.id}')"><div class="th" style="${t?`background-image:url('${t}')`:''}">${t?'':icon(i.category)}${i.type==='ytlive'||i.category==='live'?'<span class="live">● LIVE</span>':''}</div><p>${esc(i.title)}</p></div>`}
 function esc(s){return (s||'').replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]))}
 function render(){const q=$('#q').value.trim().toLowerCase();let it=D.items.filter(i=>!BAD[i.id]).filter(i=>(cat==='all'||i.category===cat)&&(!q||i.title.toLowerCase().includes(q)));
  let h='';if(cat==='all'&&!q){const f=it.filter(i=>i.featured);if(f.length)h+=`<h2>⭐ खास</h2><div class="grid">${f.map(card).join('')}</div>`;
-  D.categories.forEach(c=>{const l=it.filter(i=>i.category===c.id);if(l.length)h+=`<h2>${c.icon} ${c.name}${l.length>8?` <button class="tab" style="float:right" onclick="cat='${c.id}';tabs();render();scrollTo(0,0)">सब देखें (${l.length}) →</button>`:''}</h2><div class="grid">${l.slice(0,8).map(card).join('')}</div>`})}
- else h=it.length?`<div class="grid" style="padding-top:6px">${it.map(card).join('')}</div>`:'<div class="empty">इस भाग में जल्द ही नए वीडियो आएँगे 🙏</div>';
+  D.categories.forEach(c=>{const l=it.filter(i=>i.category===c.id);if(l.length)h+=`<h2>${c.icon} ${c.name}${(c.count||l.length)>8?` <button class="tab" style="float:right" onclick="pick('${c.id}')">सब देखें (${c.count||l.length}) →</button>`:''}</h2><div class="grid">${l.slice(0,8).map(card).join('')}</div>`})}
+ else h=it.length?`<div class="grid" style="padding-top:6px">${it.slice(0,LIM).map(card).join('')}</div>`+(it.length>LIM?`<div style="text-align:center;padding:0 0 30px"><button class="tab on" onclick="LIM+=60;render()">और दिखाएँ (${it.length-LIM} बाकी) ↓</button></div>`:''):'<div class="empty">इस भाग में जल्द ही नए वीडियो आएँगे 🙏</div>';
  $('#list').innerHTML=h||'<div class="empty">जल्द ही नए वीडियो आएँगे 🙏</div>'}
 function play(id){const i=D.items.find(x=>x.id===id);if(!i)return;const b=$('#box');b.innerHTML='';if(hls){hls.destroy();hls=null}
  $('#pt').textContent=i.title;const yt=$('#yt');yt.style.display='none';let u=i.url;
